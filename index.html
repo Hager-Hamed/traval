@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falocon Adventure</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/image/logo-sticky.png"
+    />
+    <!-- -======= bootstrap ====== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- =========== swiper =========== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- -======= style css ====== -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+  <!--===========================================================================================-->
+ <!--============================ Navbar   ================================================-->
+  <nav class="nav-bar main-nav-bar">
+    <div class="nav-output">   
+      <div class="bg-gray">
+        <div class="container-fuild d-flex align-items-center justify-content-around ">
+
+          <div class="single-item d-flex align-items-center justify-content-end">
+            <a href="" class="px-3"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-skype"></i></a>
+            <a href="" class="px-3"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <div class="single-item">
+            <span class="flaticon-call">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <p> +(02) 0114-9912-318</p>
+          </div>
+
+          <div class="single-item">
+            <span class="flaticon-location">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p> 43 N Area, Ahmed Allam St, Pyramids Garden, Giza, Egypt</p>
+          </div>
+
+        
+          
+          <div class="single-item">
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+                English
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#"> English</a></li>    
+              </ul>
+            </li>
+            <li class="nav-item navsLink dropdown-li">
+              <a class="nav-link" href="#">
+              $ US
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+              <ul class="dropdown-menu animate__animated animate__fadeIn">
+                <li><a class="dropdown-item" href="#">  $ US</a></li>    
+              </ul>
+            </li>
+          </div>
+
+          <!-- <div class="single-item">
+           
+
+          </div> -->
+
+        
+          <!-- <div class="single-item">
+            <span class="flaticon-call">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <p> My Card (0)</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+       <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/image/logo-sticky.png" alt="logo-nav">
+          </a>
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item navsLink dropdown-li">
+                <a class="nav-link" href="#">Tours 
+                  <i class="fa-solid fa-caret-down" style="margin-left: 6px"></i>
+                </a>
+                <ul class="dropdown-menu animate__animated animate__fadeIn">
+                    <li>
+                        <a class="dropdown-item " href="#" style=" color: #4f86c6;">WHAT DO YOU LIKE?</a>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Safari And Desert</a></li>
+                            <li><a  class="dropdown-item"href="#">Historical And Cultural</a></li>
+                            <li><a  class="dropdown-item"href="#">Red Sea Trips</a></li>
+                            <li><a  class="dropdown-item" href="#">Family Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Scuba Diving Tours</a></li>
+                            <li><a  class="dropdown-item" href="#">Transfers Only Tours</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#"style=" color: #4f86c6;" >WHERE DO YOU WANT TO GO?</a>
+                        <ul>
+                            <li><a  class="dropdown-item" href="#">Hurghada</a></li>
+                            <li><a  class="dropdown-item" href="#">Luxor</a></li>
+                            <li><a  class="dropdown-item" href="#">Cairo</a></li>
+          
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">Packages</a>
+              </li>
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Blog</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Services</a>
+              </li>
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> Contact</a>
+              </li>
+            </ul>
+            <a href="#" class="btn-effect">Inquiry</a>
+          </div> 
+        </div>
+      </nav>
+    </div>
+    </div>
+  </nav>
+
+  <!--===================================   Navbar  ============================================-->
+  <!--===========================================================================================-->
+
+ <!--=================================== header  ============================================-->
+
+  <div class="cont">
+    <div class="slider"></div>
+    <ul class="nav"></div>
+    <div data-target='right' class="side-nav side-nav--right"></div>
+    <div data-target='left' class="side-nav side-nav--left"></div>
+  </div>
+
+    <!--===================================  header ============================================-->
+  <!--===========================================================================================-->
+
+
+  <!--====================================== header form ==========================================-->
+  <div class="block_search">
+        <div class="container">
+          <form method="get" action="#">
+            <div class="row">
+              <div class="col-lg-3">
+                <select
+                  class="form-control fild_search"
+                  name="category"
+                  id="parent-select-new"
+                  data-route="#"
+                >
+                  <option value="2">Safari And Desert</option>
+                  <option value="4">Historical And Cultural</option>
+                  <option value="5">Red Sea Trips</option>
+                  <option value="6">Family Tours</option>
+                  <option value="8">Transfers Only Tours</option>
+                  <option value="7">Scuba Diving Tours</option>
+                  <option value="9">Nile Cruises</option>
+                  <option value="10">Packages</option>
+                </select>
+              </div>
+              <div class="col-lg-3">
+                <select
+                  class="form-control fild_search"
+                  name="sub_category"
+                  id="sub-select-new"
+                >
+                  <option value="1">Nabq bay Sharm El Shiekh</option>
+                  <option value="2">Hurghada</option>
+                  <option value="3">Luxor</option>
+                  <option value="4">Cairo</option>
+                </select>
+              </div>
+              <div class="col-lg-3">
+                <select class="form-control fild_search" name="range">
+                  <option value="0">Select Price Range ?</option>
+                  <option value="1">Below GBP 500</option>
+                  <option value="2">GBP 500 - GBP 1000</option>
+                  <option value="3">GBP 1000 - GBP 1500</option>
+                  <option value="4">Above GBP 1500</option>
+                </select>
+              </div>
+  
+              <div class="col-lg-2">
+                <button
+                  class="btn-theme btn_serach btn-effect"
+                  type="submit"
+                  style="margin: 0px"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+  <!--====================================== header form ==========================================-->
+  <!--===========================================================================================-->
+
+  <!--====================================== subCategory slider ================================-->
+  <div class="space-section "></div>
+  <div class="section-space ">
+    <div class="col-xl-12 ">
+      <div class="section-title-wrapper" style="text-align: center;">
+        <span class="section-subtitle mb-20"
+          >Special Egypt Excursions For You</span
+        >
+        <h4 class="section-title">
+          Book your Egypt excursions now with Falcon Adventure, Sharm el Sheikh excursions, Hurghada
+           excursions and things to do, Cairo and Giza Pyramids day trips and Luxor sightseeing tours. Check out our amazing things to do in Egypt and book your Egypt trip now with us.
+        </h4>
+      </div>
+    </div>
+  
+    <section class=" section__space" >
+      <div class="container">
+        <div class="row gy-24">
+           <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+            <div class="card ">
+              <div class="image-content">
+                 <span class="overlay"></span>
+          
+                  <div class="card-image">
+                    <img src="./assets/image/destination3.png" alt="" class="card-img">
+                 </div>
+             </div>
+          
+             <div class="all-tours-card-info">
+                 <div
+                   class="all-tours-card-review mb-20 d-flex align-items-center"
+                 >
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                 </div>
+                 <div class="all-tours-title">
+                   <a href="#">
+                     <h5>Cairo Day Tours</h5>
+                   </a>
+                 </div>
+                 <div class="tour-location d-flex align-items-center">
+                   <i class="fa-solid fa-location-dot"></i>
+                   <p>6391 Elgin St. Celina, Delaware</p>
+                 </div>
+                 <div class="tour-line-divider"></div>
+                 <div
+                   class="all-tours-price d-flex align-items-center justify-content-between"
+                 >
+                   <div class="all-tours-price-info">
+                     <p>From</p>
+                     <h4>$120</h4>
+                   </div>
+                   <div class="all-tours-price-icon">
+                     <a href="#" class="card-heart-btn">
+                       <i class="fa-solid fa-cart-shopping"></i>
+                     </a>
+                    
+                   </div>
+                 </div>
+               </div>
+           
+          </div>
+           </div>
+    
+  <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+    <div class="card ">
+      <div class="image-content">
+          <span class="overlay"></span>
+  
+          <div class="card-image">
+                 <img src="./assets/image/main-page1.png" alt="" class="card-img">
+          </div>
+      </div>
+      <div class="all-tours-card-info">
+        <div
+          class="all-tours-card-review mb-20 d-flex align-items-center"
+        >
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="all-tours-title">
+          <a href="#">
+            <h5>Cairo Day Tours</h5>
+          </a>
+        </div>
+        <div class="tour-location d-flex align-items-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>6391 Elgin St. Celina, Delaware</p>
+        </div>
+        <div class="tour-line-divider"></div>
+        <div
+          class="all-tours-price d-flex align-items-center justify-content-between"
+        >
+          <div class="all-tours-price-info">
+            <p>From</p>
+            <h4>$120</h4>
+          </div>
+          <div class="all-tours-price-icon">
+            <a href="#" class="card-heart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-content">
+          <h2 class="name">Jeep Safari to the blue hole</h2>
+          <p class="description">Abu Galum is Area that covers an area of about 370 square kilometers, situated on the east coast of South Sinai, right between Dahab and Nuweiba</p>
+  
+          <button class="button effect">View Details</button>
+      </div> -->
+  </div>
+  </div>
+  <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+    <div class="card">
+      <div class="image-content">
+          <span class="overlay"></span>
+  
+          <div class="card-image">
+               <img src="./assets/image/main-page4.png" alt="" class="card-img">
+          </div>
+      </div>
+      <div class="all-tours-card-info">
+        <div
+          class="all-tours-card-review mb-20 d-flex align-items-center"
+        >
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="all-tours-title">
+          <a href="#">
+            <h5>Cairo Day Tours</h5>
+          </a>
+        </div>
+        <div class="tour-location d-flex align-items-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>6391 Elgin St. Celina, Delaware</p>
+        </div>
+        <div class="tour-line-divider"></div>
+        <div
+          class="all-tours-price d-flex align-items-center justify-content-between"
+        >
+          <div class="all-tours-price-info">
+            <p>From</p>
+            <h4>$120</h4>
+          </div>
+          <div class="all-tours-price-icon">
+            <a href="#" class="card-heart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-content">
+          <h2 class="name">Double Sand Buggy Adventure
+             </h2>
+          <p class="description">Falcon Adventure is our company, and we take great pride in what we deliver. We have our very own Quad bike Center at the edge of the desert and as this is privately owned, we can give the most competitive prices in the local area.</p>
+  
+          <button class="button effect">View Details</button>
+      </div> -->
+  </div>
+  </div>
+  <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+    <div class="card ">
+      <div class="image-content">
+          <span class="overlay"></span>
+  
+          <div class="card-image">
+                  <img src="./assets/image/pexels-mariacamila-7435821.jpg" alt="" class="card-img">
+          </div>
+      </div>
+      <div class="all-tours-card-info">
+        <div
+          class="all-tours-card-review mb-20 d-flex align-items-center"
+        >
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="all-tours-title">
+          <a href="#">
+            <h5>Cairo Day Tours</h5>
+          </a>
+        </div>
+        <div class="tour-location d-flex align-items-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>6391 Elgin St. Celina, Delaware</p>
+        </div>
+        <div class="tour-line-divider"></div>
+        <div
+          class="all-tours-price d-flex align-items-center justify-content-between"
+        >
+          <div class="all-tours-price-info">
+            <p>From</p>
+            <h4>$120</h4>
+          </div>
+          <div class="all-tours-price-icon">
+            <a href="#" class="card-heart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-content">
+          <h2 class="name">Super Safari 5 In 1</h2>
+          <p class="description"> Abu Galum is Area that covers an area of about 370 square kilometers, situated on the east coast of South Sinai, right between Dahab and Nuweiba</p>
+  
+          <button class="button effect">View Details</button>
+      </div> -->
+  </div>
+  </div>
+  <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+         
+    <div class="card ">
+      <div class="image-content">
+          <span class="overlay"></span>
+  
+          <div class="card-image">
+                  <img src="./assets/image/pexels-mikhaelmayim-11020074.jpg" alt="" class="card-img">
+          </div>
+      </div>
+      <div class="all-tours-card-info">
+        <div
+          class="all-tours-card-review mb-20 d-flex align-items-center"
+        >
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="all-tours-title">
+          <a href="#">
+            <h5>Cairo Day Tours</h5>
+          </a>
+        </div>
+        <div class="tour-location d-flex align-items-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>6391 Elgin St. Celina, Delaware</p>
+        </div>
+        <div class="tour-line-divider"></div>
+        <div
+          class="all-tours-price d-flex align-items-center justify-content-between"
+        >
+          <div class="all-tours-price-info">
+            <p>From</p>
+            <h4>$120</h4>
+          </div>
+          <div class="all-tours-price-icon">
+            <a href="#" class="card-heart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-content">
+          <h2 class="name">Single Quad Ultimate Desert Experience</h2>
+          <p class="description"> Falcon Adventure is our company, and we take great pride in what we deliver. We have our very own Quad bike Center at the edge of the desert and as this is privately owned, we can give the most competitive prices in the local area.</p>
+  
+          <button class="button effect">View Details</button>
+      </div> -->
+  </div>
+  </div>
+  <div class="col-xxl-4 col-xl-4 col-xl-4 col-lg-4 col-md-12 ">
+    <div class="card ">
+      <div class="image-content">
+          <span class="overlay"></span>
+  
+          <div class="card-image">
+                  <img src="./assets/image/pexels-ozgomz-7566887.jpg" alt="" class="card-img">
+          </div>
+      </div>
+  
+      <!-- <div class="card-content">
+          <h2 class="name">Dolphins Swim And Show in Sharm el Sheikh
+             
+  </h2>
+          <p class="description"> Abu Galum is Area that covers an area of about 370 square kilometers, situated on the east coast of South Sinai, right between Dahab and Nuweiba</p>
+  
+          <button class="button effect">View Details</button>
+      </div> -->
+      <div class="all-tours-card-info">
+        <div
+          class="all-tours-card-review mb-20 d-flex align-items-center"
+        >
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="all-tours-title">
+          <a href="#">
+            <h5>Cairo Day Tours</h5>
+          </a>
+        </div>
+        <div class="tour-location d-flex align-items-center">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>6391 Elgin St. Celina, Delaware</p>
+        </div>
+        <div class="tour-line-divider"></div>
+        <div
+          class="all-tours-price d-flex align-items-center justify-content-between"
+        >
+          <div class="all-tours-price-info">
+            <p>From</p>
+            <h4>$120</h4>
+          </div>
+          <div class="all-tours-price-icon">
+            <a href="#" class="card-heart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+  
+        </div>
+       </div>
+     </section>
+  </div>
+  
+  
+  <!--========================================== subCategory slider =============================-->
+  <!--===========================================================================================-->
+
+  <!-- ===================================== offer =============================================== -->
+
+      <section class="bd-offer-area section__space" id="offer">
+        <div class="container">
+          <div class="row gy-24">
+            <div class="col-xxl-6 col-xl-6 col-xl-6 col-lg-6 col-md-12 " style="visibility: visible; animation-name: bdFadeInLeft">
+              <div class="offer-wrapper offer-style-four theme-bg">
+                <div class="offer-content-wrapper" style="z-index: 2;">
+                  <div class="offer-content mb-25">
+                    <h2 class="section-title white-text mb-24">
+                      Special 30% off
+                    </h2>
+               
+                    <p class="mb-20">
+                      Share the core values and principles that drive your
+                      company. Emphasize a commitment to custome.
+                    </p>
+                  </div>
+                  <div class="offer-btn">
+                    <a href="#" class="bd-primary-btn btn-style has-arrow is-bg btn-tertiary is-white radius-60">
+                      <span class="bd-primary-btn-text">Know More</span>
+                       </a>
+                  </div>
+                </div>
+                <div class="offer-image">
+                  <img src="./assets/image/offer-img-4.png" alt="image">
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-xl-6 col-lg-6 col-md-12 " style="visibility: visible; animation-name: bdFadeInRight">
+              <div class="offer-wrapper offer-style-four warning-bg">
+                <div class="offer-content-wrapper" style="z-index: 2;">
+                  <div class="offer-content mb-25">
+                    <h2 class="section-title white-text mb-24">Get 20% off</h2>
+                    <p class="mb-20">Lets Explore the World</p>
+                  </div>
+                  <div class="offer-btn">
+                    <a href="#" class="bd-primary-btn btn-style has-arrow is-bg is-white radius-60">
+                      <span class="bd-primary-btn-text">Know More</span>
+                      </a>
+                  </div>
+                </div>
+                <div class="offer-image">
+                  <img src="./assets/image/offer-img-5.png" alt="image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <!-- ===================================== offer =============================================== -->
+  <!--===========================================================================================-->
+
+
+  <!--======================================== tour ===================================================-->
+
+  <section class="gallery ">
+    <div class="container">
+    <h2 class="title">Travel the Wonderful Landscapes</h2>
+    <div class="gallery-box">
+      <div class="gallery__item">
+        <img src="./assets/image/pexels-andreea-ch-371539-1369212.jpg" alt="Photo Gallery">
+        <h3>Cairo</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="./assets/image/pexels-mostafa-el-shershaby-2139036-3772630.jpg" alt="Photo Gallery">
+        <h3> Luxor
+        </h3>
+      </div>
+      <div class="gallery__item">
+        <img src="./assets/image/pexels-spencer-4388159.jpg" alt="Photo Gallery">
+        <h3>Hurghada</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="./assets/image/pexels-hisham-elshazli-2982695-10131669.jpg" alt="Photo Gallery">
+        <h3> Safari And Desert</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="./assets/image/pexels-keeper-6322875.jpg" alt="Photo Gallery">
+        <h3>  Red Sea Trips</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="./assets/image/photo-1684100096410-fd39cdff91a3.avif" alt="Photo Gallery">
+        <h3> Family Tours</h3>
+      </div>
+    </div>
+  </div> 
+  </section>
+
+
+  <!--===========================================================================================-->
+
+   <!-- ================================== Why Choose ================================================== -->
+
+     <section class="bd-chosse-area section__space">
+              <div class="why">
+                <div class="row gy-24 align-items-center justify-content-between">
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12">
+                    <div class="section-title-wrapper section-title-space">
+                      <span class="section-subtitle mb-10"
+                        >Why Choose Falcon Adventure?</span
+                      >
+                      <h2 class="section-title mb-20">
+                        We are Discovering the Tour With Excitement
+                      </h2>
+                      <p>
+                        We do our best to make sure that you will get the best Egypt
+                        tour and excursions, check out what they say about us.
+                      </p>
+                    </div>
+                    <div class="choose-list-box">
+                      <ul class="why__list">
+                        <li
+                          class="underline ">
+                          <span>
+                            <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                          </span>
+                          <a
+                            href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+                            target="_blank"
+                            >Falcon Adventure</a
+                          >
+                          <div>
+                            <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                            <p>3,058 reviews</p>
+                          </div>
+                          <p>Tripadvisor Ranking</p>
+                          <h6>#15 of 370 Boat Tours & Water Sports in Sharm El Sheikh</h6>
+                          <div>
+                            <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                          >|
+                          <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                          </div>
+                         
+                          
+                        </li>
+                        <li
+                        class="underline ">
+                        <span>
+                          <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                        </span>
+                        <a
+                          href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+                          target="_blank"
+                          >Falcon Adventure</a
+                        >
+                        <div>
+                          <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                          <p>3,058 reviews</p>
+                        </div>
+                        <p>Tripadvisor Ranking</p>
+                        <h6> #17 of 1,114 Outdoor Activities in Hurghada</h6>
+                        <div>
+                          <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                        >|
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                        </div>
+                       
+                        
+                      </li>
+                      <li
+                      class="underline ">
+                      <span>
+                        <img src="./assets/image/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg" style=" width: 39%;">
+                      </span>
+                      <a
+                      href="https://www.tripadvisor.com/Attraction_Review-g294202-d13813341-Reviews-Falcon_Adventure-Giza_Giza_Governorate.html"
+                        target="_blank"
+                        >Falcon Adventure</a
+                      >
+                      <div>
+                        <p class="widSSPH11">Tripadvisor Traveler Rating</p>
+                        <p>3,058 reviews</p>
+                      </div>
+                      <p>Tripadvisor Ranking</p>
+                      <h6>#58 of 249 Outdoor Activities in Giza</h6>
+                      <div>
+                        <a href="https://www.tripadvisor.com/UserReview-g297555-d1877630-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html" >Write a review</a
+                      >|
+                      <a href="https://www.tripadvisor.com/Attraction_Review-g297555-d1877630-Reviews-Falcon_Adventure-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html">Read reviews</a>
+                      </div>
+                     
+                      
+                    </li>
+            
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-12">
+                    <div class="choose-thumb-wrapper p-relative">
+                      <div
+                        class="choose-thumb-main "
+                        data-wow-delay=".3s"
+                        style="
+                          visibility: visible;
+                          position: relative;
+                          ;
+                        "
+                      >
+                        <div class="hover-effect">
+                          <img src="./assets/image/imagination1.png" alt="image" />
+                        </div>
+                      </div>
+                      <div
+                        class="choose-thumb-bordered"
+                        data-wow-delay=".3s"
+                        style="
+                          visibility: visible;
+                          animation-delay: 0.3s;
+                          animation-name: bdFadeInRight;
+                        "
+                      >
+                        <img src="./assets/image/caption.jpg" alt="image" />
+        
+                        <div class="pos-center">
+                          <a
+                            class="bd-play-btn small white-bg popup-video animation-three"
+                            href="https://youtu.be/qLh8NAvemF4?si=rx6G03m2-3wr5dMg"
+                            ><i class="fa-brands fa-youtube"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </section>
+   <!-- -===================================================================================-->
+  <!--===========================================================================================-->
+  <!-- ======================================= Egypt tours ===================================== -->
+  <div class="col-xl-12">
+    <div class="section-title-wrapper" style="text-align: center;">
+      <span class="section-subtitle mb-20"
+        >Popular Egypt Things to do</span
+      >
+      <h4 class="section-title">
+        Check out the best Egypt tours, Egypt activities and day tours.
+        Top Egypt things to do, book now with us.
+      </h4>
+    </div>
+  </div>
+
+ 
+   <section class="section__space">
+  
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="./assets/image/trip-img-2.png" height="380" alt="Card image cap">
+                <div class="product-detail">
+                    <h5 class="card-title heading text-center">Safari And Desert </h5>
+                    <span class="subheading">15 Tours</span>
+                    <blockquote>
+                   <p>Embark on an odyssey of discovery with Falocon Adventure, where every destination</p>
+                    </blockquote>
+                    <button type="button" class="btn btn-outline-dark"> View Details</button>  
+                   </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-3" style="width: 20rem;">
+                        <img class="card-img-top" src="./assets/image/trip-img-3.png" height="380" alt="Card image cap">
+                        <div class="product-detail">
+                            <h5 class="card-title heading text-center">Red Sea Trips</h5>
+                            <span class="subheading">18 Tours</span>
+                            <blockquote>
+                                <p>Embark on an odyssey of discovery with Falocon Adventure, where every destination</p>
+                            </blockquote>
+            <button type="button" class="btn btn-outline-dark"> View Details</button>  
+                            
+                           </div>
+                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="./assets/image/trip-img-5.png" height="380"  alt="Card image cap">
+                <div class="product-detail">
+                    <h5 class="card-title heading text-center">Scuba Diving Tours</h5>
+                    <span class="subheading">30 Tours</span>
+                    <blockquote>
+                        <p>Embark on an odyssey of discovery with Falocon Adventure, where every destination</p>
+                    </blockquote>
+                    <button type="button" class="btn btn-outline-dark"> View Details</button>  
+                   </div>
+            </div>
+        </div>
+    </div>
+    <!--  
+      <div class="row gy-24 " >
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
+              <div class="box">
+            <div class="imgBox">
+              <img src="assets/image/activity-img-23.png" alt="">
+              <span class="imgBox__text">Safari And Desert</span>
+            </div>
+            <div class="content">
+              <h2> <a href="#">Safari And Desert </a>
+                
+              </h2>
+              <span>15 Tours</span>
+            </div>
+          </div> 
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
+          <div class="box">
+            <div class="imgBox">
+              <img src="assets/image/activity-img-30.png" alt="">
+              <span class="imgBox__text">Red Sea Trips</span>
+            </div>
+            <div class="content">
+              <h2><a href="#">Red Sea Trips </a> </h2>
+              <span>18 Tours</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
+          <div class="box">
+            <div class="imgBox">
+              <img src="assets/image/activity-img-31.png" alt="">
+              <span class="imgBox__text">Scuba Diving Tours</span>
+            </div>
+            <div class="content">
+              <h2> <a href="#">Scuba Diving Tours</a>  </h2>
+              <span> 8 Tours</span>
+            </div>
+          </div>
+        </div> 
+
+      </div>-->
+    </div>
+  </section> 
+
+  <br>
+  <!-- ========================================== Egypt tours ================================= -->
+  <!--===========================================================================================-->
+  <!-- ==========================================   Why Chose ===================================  -->
+
+  <div class="container-fluid feature bg-light py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 "  style="max-width: 800px; visibility: visible; ">
+            <h4 class="text-primary">Why choose us</h4>
+            <h2 class="display-4 mb-4">Some Good Reasons</h2>
+            <p class="mb-0">
+              Experience the various exciting tour and travel packages and Make hotel reservations, 
+              find vacation packages, search cheap hotels and events            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+                <div class="feature-item p-4 pt-0">
+                    <div class="feature-icon p-4 mb-4">
+                      <i class="fa-solid fa-plane-departure fa-3x"></i>
+                      <!-- <i class="far fa-handshake fa-3x"></i> -->
+                    </div>
+                    <h4 class="mb-4">PRIVATE AIRPORT TRANSFERS</h4>
+                    <p class="mb-4">
+                      After your flight to Egypt, you just want to get to your hotel transfer as soon as possible to start your holiday.
+                    </p>
+                    <br>
+                    <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+                <div class="feature-item p-4 pt-0">
+                    <div class="feature-icon p-4 mb-4">
+                      <i class="fa-solid fa-wifi fa-3x"></i>
+                      <!-- <i class="fa fa-dollar-sign fa-3x"></i> -->
+                    </div>
+                    <h4 class="mb-4">PORTABLE WIFI FOR RENT</h4>
+                    <p class="mb-4">
+                      The quick and easy way to connect to the hotel while on holiday in Sharm El 
+                      Sheikh & hurghada to stay in touch with friends, family and work 24/7.
+                    </p>
+                    <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+                <div class="feature-item p-4 pt-0">
+                    <div class="feature-icon p-4 mb-4">
+                      <i class="fa-solid fa-person-swimming fa-3x"></i> 
+                      <!-- <i class="fa fa-bullseye fa-3x"></i> -->
+                    </div>
+                    <h4 class="mb-4">SCUBA DIVING COURSES</h4>
+                    <p class="mb-4">
+                      We offer great value for money. we do our best to make sure that you will get unforgettable tour                    </p>
+                    <br>
+                      <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 "  style="visibility: visible; ">
+                <div class="feature-item p-4 pt-0">
+                    <div class="feature-icon p-4 mb-4">
+                      <i class="far fa-handshake fa-3x"></i>
+                      
+                      <!-- <i class="fa fa-headphones fa-3x"></i> -->
+                    </div>
+                    <h4 class="mb-4">Safety and Security</h4>
+                    <p class="mb-4">
+                      Benefit from enhanced safety measures, emergency support, and assistance in case of circumstances during your travels                    </p>
+                    <br>
+                      <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- ==========================================   Why Chose ===================================  -->
+  <!--===========================================================================================-->
+  
+  <!--=================================== Recommend Tours ========================================-->
+         <section class="Recommend-tours section__space ">
+          <div class="container">
+            <div class="row">
+              <div class="section-title text-center">
+                <div class="col-12">
+               
+                <span class="section-subtitle mb-20"
+                >Popular Egypt Things to do</span
+              >
+              <h4 class="section-title mb-24">
+                Check out the best Egypt tours, Egypt activities and day tours.
+                Top Egypt things to do, book now with us.
+              </h4>
+              </div> 
+              
+              </div>
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/imagination2.png" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title " >
+                        <a href="#" style="color: #fff;">Jeep Safari to the blue hole</a>
+                      </h3>
+                     
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                      
+                    
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                          <span>Every Day</span>
+                        </div>
+                           <div class="tour-item-price">
+                          <h4>GBP40.00</h4>
+                        </div>
+                      </div>
+                       
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content ">
+                      <h3 class="tour-card-title">
+                        <a href="#" >Jeep Safari to the blue hole</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                        Embark on an odyssey of discovery with Falocon Adventure, where every destination
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Every Day</span>
+                          </div>
+                          
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>GBP40.00</h4>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/pexels-mikhaelmayim-11020074.jpg" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title">
+                        <a href="#" style="color: #fff;">Cairo Day Trips by plane from Sharm El Sheikh</a>
+                      </h3>
+    
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                          <span>Every Day</span>
+                        </div>
+                       
+                      </div>
+                      <div class="tour-item-price">
+                        <h4>GBP40.00</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content ">
+                      <h3 class="tour-card-title">
+                        <a href="#" >Cairo Day Trips by plane from Sharm El Sheikh</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                        Embark on an odyssey of discovery with Falocon Adventure, where every destination
+
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>4 Day</span>
+                          </div>
+                    
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>GBP40.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/pexels-ozgomz-7566890.jpg" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title">
+                        <a href="#" style="color: #fff;">Double Sand Buggy Adventure</a>
+                      </h3>
+                    
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                         <span>Every Day</span>
+                        </div>
+                     
+                      </div>
+                      <div class="tour-item-price">
+                        <h4>GBP40.00</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content ">
+                      <h3 class="tour-card-title">
+                        <a href="#" >Double Sand Buggy Adventure</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                        Embark on an odyssey of discovery with Falocon Adventure, where every destination
+
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                      
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Every Day</span>
+                          </div>
+                          
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>GBP40.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/pexels-rickyrecap-1802268.jpg" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+              <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>        
+                 
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title">
+                        <a href="#"  style="color: #fff;">Turkey Balloons flying</a>
+                      </h3>
+                      
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                          <span>3 Days</span>
+                        </div>
+                        
+                      </div>
+                      <div class="tour-item-price">
+                        <h4>
+                          GBP40.00</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content ">
+                      <h3 class="tour-card-title">
+                        <a href="#">Windsurfing in the River</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                         Embark on an odyssey of discovery with Falocon Adventure, where every destination
+
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                      
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>3 Days</span>
+                          </div>
+                      
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>GBP40.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/pexels-ozgomz-7566887.jpg" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>
+                 
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title">
+                        <a href="#" style="color: #fff;">Turkey Balloons flying</a>
+                      </h3>
+                      
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                          <span>3 Days</span>
+                        </div>
+                    
+                      </div>
+                      <div class="tour-item-price">
+                        <h4>
+                          GBP40.00</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content ">
+                      <h3 class="tour-card-title">
+                        <a  href="#">Windsurfing in the River</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                         Embark on an odyssey of discovery with Falocon Adventure, where every destination
+
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                   
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>3 Days</span>
+                          </div>
+                          
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>
+                            GBP40.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xl-4 col-md-6">
+                <div class="Recommend-Tour-item">
+                  <a href="#">
+                    <img src="./assets/image/pexels-yigithan02-5572508.jpg" alt="Recommend-Tour-item">
+                  </a>
+                  <a href="#" class="tour-wishlist">
+                   <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <div class="tour-card-image-overlay"></div>
+                 
+                  <div class="overlay-recommend">
+                    <div class="tour-list-bio d-flex justify-content-between">
+                      <h3 class="tour-list-bio-card-title">
+                        <a href="#" style="color: #fff;">Turkey Balloons flying</a>
+                      </h3>
+                      
+                    </div>
+                    <div class="tour-line-divider"></div>
+                    <div class="tour-details d-flex justify-content-between">
+                      <div class="tour-item-left d-flex align-items-center">
+                        <div class="tour-item-duration">
+                          <i class="fa-solid fa-clock"></i>
+                          <span>3 Days</span>
+                        </div>
+                      
+                      </div>
+                      <div class="tour-item-price">
+                        <h4>
+                          GBP40.00</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Tour-details-box">
+                    <div class="tour-card-hover-content">
+                      <h3 class="tour-card-title">
+                        <a href="#">Windsurfing in the River</a>
+                      </h3>
+                      <p class="tour-card-text text-small">
+                         Embark on an odyssey of discovery with Falocon Adventure, where every destination
+
+                      </p>
+                      <div class="tour-card-info">
+                        <div>
+                          <div class="tour-card-review-box  tour-item-left d-flex align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="tour-card-review-text text-small">4.5 (30 Reviews)</p>
+                          </div>
+                          <div class="tour-card-location-box d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="tour-card-location-text text-small">Nabq bay Sharm El Shiekh</p>
+                          </div>
+                        </div>
+                    
+                      </div>
+                      <div class="tour-line-divider"></div>
+                      <div class="tour-details d-flex justify-content-between">
+                        <div class="tour-item-left d-flex align-items-center">
+                          <div class="tour-item-duration">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>3 Days</span>
+                          </div>
+                        
+                        </div>
+                        <div class="tour-item-price">
+                          <h4>
+                            GBP40.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </section>
+  <!--============================  Recommend Tours ================================================-->
+   <!-- -========================================================================================-->
+
+ <!-- -===================================================================================-->
+
+ <div class=" section-space p-relative fix section__space">
+  <div class="testimonial-bg image-bg"></div>
+  
+      <div class="container">
+    <div class="col-xxl-5 col-xl-5 col-lg-12 order-xl-0 order-1">
+        <div class="testimonial-left">
+            <h2 class="section-title white-text mb-20">Customer Review</h2>
+            <p class="white-text mb-20">
+                Making your enjoyable travels Journey joy A traveler's Manual
+                for Maximum Enjoyment
+              </p>
+                             </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-7 col-xl-7 col-lg-12 order-xl-0 order-1">
+        
+        <div class="testimonial-slider-wrap" >
+
+            <div class="swiper testimonial_active_2">
+                <section class="testimonial__area">
+                  <div class="wrapper">
+                    <div class="testimonial swiper">
+                      <div class="testimonial__card--group swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial-wrapper">
+                              <div
+                                class="testimonial-content p-relative has-transparent"
+                              >
+                                <div
+                                  class="bd-rating fs-14 d-flex rating-color justify-content-center mb-20"
+                                >
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p  class=" mb-20">
+                                  Falcon Adventure has got to be the best we have ever been with from booking your days out in the back of a car outside the hotel totally safe so don't be put off which is a great laugh on it's own in . getting picked up and the wonderful days out and dropped off at your hotel And making you feel 110% safe at all times it is so fantastic and leaving you wanting to do it all again.
+                                  And all the people at falcon are so friendly and make your day so special and it's so cheap and I mean cheap compared to your normal reps in the hotel. and a big shout out to Mad Max who went the extra mile taking us out for drinks and making our Day a day to remember.
+                                  Thanks can't wait to do it all again
+                                </p>
+                                <div
+                                  class="testimonial-avatar-wrap justify-content-center"
+                                >
+                                  <div class="avatar-thumb">
+                                    <img src="./assets/image/01.png" alt="" />
+                                  </div>
+                                  <div class="avatar-meta">
+                                   
+                                    <p>   Fantastic days out</p>
+                                  </div>
+                                </div>
+                                <div class="testimonial-quot">
+                                  <img
+                                    src="./assets/image/quot-shape.png"
+                                    alt="shape"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="testimonial__card swiper-slide">
+                          <div class="testimonial-wrapper">
+                            <div
+                              class="testimonial-content p-relative has-transparent"
+                            >
+                              <div
+                                class="bd-rating fs-14 d-flex rating-color justify-content-center mb-20"
+                              >
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                              <p class=" mb-20"> 
+                                When we went quad biking with falcon adventure for my 50th birthday they couldn't do enough for us just to make the day extra special. We have been using falcon adventure for many years now , even when we were going sharm. We use them for the quad biking/ buggies, boat trips, airport transfers, wifi boxes and even just a taxi in to town.i can say they have never let us down. Cant wait to come back this year and see Said,Max and the guys again. Thanks again.
+                              </p>
+                              <div
+                                class="testimonial-avatar-wrap justify-content-center"
+                              >
+                                <div class="avatar-thumb">
+                                  <img src="./assets/image/02.png" alt="" />
+                                </div>
+                                <div class="avatar-meta">
+                                 
+                                  <p>Quad biking</p>
+                                </div>
+                              </div>
+                              <div class="testimonial-quot">
+                                <img
+                                  src="./assets/image/quot-shape.png"
+                                  alt="shape"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  
+                      
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="btn__group">
+        
+                <div class="btn__next">
+                  <svg width="29" height="20" viewBox="0 0 56 56" fill="none">
+                    <rect
+                      x="1"
+                      y="1"
+                      width="20"
+                      height="20"
+                      rx="27"
+                      stroke="#3B3B3B"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div class="btn__next">
+                  <svg width="29" height="20" viewBox="0 0 56 56" fill="none">
+                    <rect
+                      x="1"
+                      y="1"
+                      width="20"
+                      height="20"
+                      rx="27"
+                      stroke="#3B3B3B"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div class="btn__next">
+                  <svg width="29" height="20" viewBox="0 0 56 56" fill="none">
+                    <rect
+                      x="1"
+                      y="1"
+                      width="20"
+                      height="20"
+                      rx="27"
+                      stroke="#3B3B3B"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+              </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>    
+
+<!-- -===================================================================================-->
+
+<section class="theme-bg fix p-relative section__space ">
+  <div class="cta-shape-bg image-bg"></div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div
+        class="col-xl-6 col-lg-4 order-lg-0 order-1"
+        style="visibility: visible"
+      >
+       
+        </div>
+      </div>
+      <div class="col-xl-12 col-lg-12 order-lg-1 order-0">
+        <div class="cta-wrapper cta-style-two">
+          <div class="section-title-wrapper mb-35">
+            <h2 class="section-title small white-text mb-20">
+              HURGHADA TOP ACTIVITIES
+            </h2>
+            <p class="white-text mb-20">
+              Book now your Hurghada excursions and check out our top
+              activities and things to do in Hurghada Red Sea Egypt
+            </p>
+          </div>
+          <div class="cta-btn">
+            <a
+              href="#"
+              class="bd-primary-btn btn-style has-arrow is-bg btn-tertiary is-white radius-60"
+            >
+              <span class="bd-primary-btn-text">READ MORE</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================================= -->
+
+<!--===================================   Start Footer ===================================  -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="box">
+        <a><img src="./assets/image/logo-sticky.png" alt="" /></a>
+        <p class="font" style="color: #fff;">
+          FALCON ADVENTURE Is An Established Fully Insured And Licensed
+          Company That Has Continued To Grow Over The Last 12 Years.
+        </p>
+        <ul class="social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>CATEGORIES</h3>
+        <ul class="links font links__font">
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Safari And Desert</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Historical And
+              Cultural</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-angles-right"></i> Red Sea Trips</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Family Tours</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Scuba Diving Tours</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Transfers Only
+              Tours</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>GENERAL</h3>
+        <ul class="links font links__font">
+          <li>
+            <a href="#"><i class="fa-solid fa-angles-right"></i>About</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-angles-right"></i>Contact</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-angles-right"></i>FAQ</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-angles-right"></i>Blog</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-angles-right"></i>Favourites</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>QUICK CONTACT</h3>
+        <ul class="links font">
+          <li>
+            <a href="tel:+201117670277"
+              ><i class="fa-solid fa-phone"></i> Phone: +201117670277</a
+            >
+          </li>
+          <li>
+            <a href="tel: +201117670277"
+              ><i class="fa-solid fa-phone"></i> Mobile: +201117670277</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-angles-right"></i>Fax:</a>
+          </li>
+          <li>
+            <a href="mailto:Falconadventure825@Gmail.Com"
+              ><i class="fa-solid fa-envelope"></i> Email:
+              Falconadventure825@Gmail.Com</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-amazon-pay"></i>Secure payments with
+              <img src="./assets/image/payment-cards.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="copyright">© 2024 All Rights Reserved: SeoEra</p>
+</div>
+
+<!--===================================  end Footer ===================================  -->
+
+
+
+
+    <!-- =================================== js ======================= -->
+    <!-- -================================ bootstrap ===================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ================================== jquery ======================= -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- =================================== js ======================= -->
+
+    <script src="./assets/js/maine.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/swibar.js"></script>
+  </body>
+</html>
