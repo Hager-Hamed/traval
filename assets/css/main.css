@@ -3479,7 +3479,7 @@ text-align: center;
 }
 
 .package-tour-content {
-  height: 100px;
+  height: 112px;
   overflow: hidden;
 }
 
@@ -3489,6 +3489,7 @@ text-align: center;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 .package-footer span{
 font-size: 16px;
@@ -6233,16 +6234,16 @@ end Testimonials
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 0.25rem;
-}@media (min-width: 1400px) {
-
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-      max-width: 1440px;
-  }
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  z-index: 111111;
+  bottom: -3px !important;
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+.swiper-pagination {
+  position: relative;
 }
 
 @media (max-width: 1440px) {
@@ -8032,4 +8033,34 @@ end Testimonials
 
 }
 
-@media (max-width: 361px) {}
+ @media (max-width: 575.98px) {
+
+  .section-title h2, .section-title-left h2 {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.section-title .section-title-span {
+  line-height: 30px;
+}
+.about-bottom-img {
+  min-width: 272px;
+  margin-left: 0;
+  margin-top: 0;
+  position: relative;
+}
+.about-top-img img {
+  border-radius: 10px;
+  height: 260px;
+  width: 462px;
+  object-fit: cover;
+}
+.blog_cars{
+  display: flex !important
+  ;
+      flex-direction: column;
+}
+ }
