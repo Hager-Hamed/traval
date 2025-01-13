@@ -49,11 +49,7 @@ $(document).ready(function () {
                             <input type="date" value="2022-05-18">
                             <span>Thursday</span>
                         </div>
-                        <div class="Journey_date">
-                            <p>Return date</p>
-                            <input type="date" value="2022-05-20">
-                            <span>Saturday</span>
-                        </div>
+                      
                     </div>
                 </div>
             </div>

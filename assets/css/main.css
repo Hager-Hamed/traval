@@ -303,7 +303,7 @@ a:hover{
 .btn-effect {
   color: var(--main-color);
   border-radius: .5em;
-  background-color: var(--second-color);
+  background-color: #ffc107;
   color: var(--white-color);
   letter-spacing: .1em;
   text-align: center;
@@ -324,7 +324,7 @@ a:hover{
   position: absolute;
   width: 25%;
   height: 100%;
-  background-color: var(--main-color);
+  background-color: #000;
   transform: translateY(150%);
   border-radius: 50%;
   left: calc((var(--n) - 1) * 25%);
@@ -364,7 +364,7 @@ a:hover{
   text-align: center;
   font-weight: 700;
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #041126;
+  background-color: #ffa500;
   position: relative;
   z-index: 1;
   transition: all 0.5s ease-out;
@@ -402,7 +402,7 @@ a:hover{
   height: 0;
   left: 0;
   top: 0;
-  background-color: #ffae00;
+  background-color: #041126;
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
@@ -751,7 +751,7 @@ a:hover{
 ===============================================================*/
 
 .newsletter-wrap {
-    background: linear-gradient(to left, #203b56, #203b56);
+    background: linear-gradient(to left, #203b56, #8b5d09);
     padding: 30px;
     border-radius: 20px;
     display: flex;
@@ -2716,7 +2716,7 @@ align-items: center
 border-radius: 5px 0 0 5px
 }
 
-.blog-card.two .blog-card-img-wrap .card-img img {border-radius: 5px 0 0 5px;min-width: 360px;/* max-width: 290px; */-o-object-fit: cover;object-fit: cover;overflow: hidden;}
+.blog-card.two .blog-card-img-wrap .card-img img {border-radius: 5px 0 0 5px;min-width: 402px;/* max-width: 290px; */-o-object-fit: cover;object-fit: cover;overflow: hidden;}
 
 @media(min-width:1200px) and (max-width:1399px) {
 .blog-card.two .blog-card-img-wrap .card-img img {
@@ -3390,7 +3390,7 @@ text-align: center;
   background-color: var(--white-color);
   /* box-shadow: 0px 13px 48px 0px rgb(153 110 59 / 20%); */
   margin-bottom: 30px;
-  border-radius: 20px;
+  border-radius: 30px;
   position: relative;
   text-align: left;
 }
@@ -3439,8 +3439,8 @@ text-align: center;
 
 .package-img {
   overflow: hidden;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   transition: 1s all ease-in-out;
 }
 
@@ -3470,10 +3470,10 @@ text-align: center;
 }
 
 .package-img img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   width: 420px !important;
-  height: 280px;
+  height: 280px !important;
   object-fit: cover;
   min-width: 100%;
 }
@@ -4460,10 +4460,10 @@ feature-card3 {
 
 #process-flow {
   /* background: #0b405e; */
-  background: url(https://trisog-html.netlify.app/assets/images/featured-tours-section/pattern.png), #16377d;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url(https://trisog-html.netlify.app/assets/images/featured-tours-section/pattern.png), #032040;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .section-padding {
@@ -5822,7 +5822,7 @@ Start Testimonials
 ===============================================================*/
 .testimonials {
   position: relative;
-  background-color: #F1F6FF;
+  background-color: #fcfcfc96;
 }
 
 .testiSwiper {
@@ -5871,7 +5871,7 @@ Start Testimonials
   -webkit-mask-size: cover;
   mask-size: cover;
   padding: 30px;
-  background-color: #203b56;
+  background-color: #ddd;
   border-radius: 30px;
   transition: all 500ms ease;
 }
