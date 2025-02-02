@@ -6247,58 +6247,7 @@ end Testimonials
 }
 
 @media (max-width: 1440px) {
-  .flight_categories_search .nav-tabs {
-      border-bottom: none;
-      justify-content: center;
-      margin-bottom: 30px;
-  }
 
-  .flight_categories_search {
-      position: inherit;
-  }
-
-  .flight_Search_boxed input {
-      font-size: 18px;
-      width: 70%;
-  }
-
-  .dropdown_passenger_area button {
-      font-size: 18px;
-  }
-
-  .banner_four_text h1 {
-      font-size: 60px;
-      font-weight: 500;
-      padding-top: 13px;
-      line-height: 70px;
-  }
-
-  .banner_four_text h3 {
-      padding-top: 10px;
-      font-weight: 500;
-      font-size: 18px;
-  }
-
-  .banner_four_img {
-      width: 42%;
-  }
-
-  .banner_four_text {
-      padding-right: 200px;
-  }
-
-  .banner_bootom_four {
-      padding-top: 100px;
-  }
-
-  .banner_five_text h1 {
-      font-size: 82px;
-      line-height: 102px;
-  }
-
-  .benefit_list {
-      display: block;
-  }
 
   .about_item_one::after {
       position: absolute;
@@ -6404,44 +6353,7 @@ end Testimonials
 }
 
 @media (max-width: 1199px) {
-  .flight_show_down_wrapper {
-      display: inherit;
-  }
-
-  .flex_widht_less {
-      width: 68%;
-      padding-left: 0px;
-  }
-
-  .flight_refund_policy {
-      padding-top: 16px;
-  }
-
-  .room_book_item {
-      display: inherit;
-  }
-
-  .room_book_img img {
-      width: 100%;
-  }
-
-  .room_booking_right_side {
-      padding: 15px 25px 25px 25px;
-  }
-
-  .theme_nav_tab_item .nav-tabs .nav-link {
-      margin-bottom: 0;
-      background: 0 0;
-      border: 1px solid var(--main-color);
-      color: var(--black-color);
-      padding: 6px 20px;
-      border-radius: 5px;
-      margin-right: 14px;
-  }
-
-  .banner_one_text h1 {
-      font-size: 50px;
-  }
+ 
 
   .tab_destinations_conntent h3 {
       text-overflow: ellipsis;
@@ -6492,15 +6404,8 @@ end Testimonials
       margin-bottom: 30px;
   }
 
-  .theme_nav_tab_six_item .nav-tabs {
-      justify-content: center;
-  }
 
-  .theme_nav_tab_six_item .nav-tabs .nav-link {
-      margin-left: 6px;
-      padding: 8px 19px;
-  }
-
+ 
   .home_six_section_heading h2::after {
       left: 43%;
   }
@@ -6513,9 +6418,7 @@ end Testimonials
       width: 50%;
   }
 
-  .navbar_color_black .main-navbar .navbar .navbar-nav .nav-item a {
-      color: var(--white-color);
-  }
+
   
   .navbar_color_black .topbar-list li a {
       color: var(--white-color);
@@ -6715,14 +6618,7 @@ end Testimonials
 }
 
 @media (max-width: 992px) {
-  .theme_search_form_tabbtn .nav-tabs {
-      border-bottom: none;
-      justify-content: center;
-  }
-
-  .theme_search_form_tabbtn .nav-item {
-      margin-bottom: 20px;
-  }
+ 
 
   .bus_seat_left_side {
       padding-top: 20px;

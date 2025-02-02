@@ -1,0 +1,468 @@
+/*===============================================================
+                Contact Us 
+===============================================================*/
+.contact-us {
+  background-color: #ffffff;
+}
+
+.contact-us-plane-shape {
+  height: 300px;
+  position: absolute;
+  width: 300px;
+  top: 20%;
+}
+
+.contact-us .contact-us-sky-shape {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  z-index: -1;
+}
+
+.contact-box h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.contact-box img {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-box-email,
+.contact-box-location,
+.contact-box-phone {
+  text-align: center;
+  width: 33.3%;
+}
+
+.contact-info {
+  padding-left: 0;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 20px 0 rgba(0, 66, 116, 0.1);
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 17px;
+  padding-right: 17px;
+  padding-bottom: 1px;
+  padding-left: 18px;
+  row-gap: 15px;
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="subject"],
+input[type="datetime-local"],
+textarea {
+  background: #e9ecef;
+  border: 1px solid #e9ecef;
+  outline: 0;
+  width: 100%;
+  padding: 13px 20px;
+  resize: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="subject"],
+input[type="datetime-local"] {
+  height: 60px;
+  text-align: left;
+}
+
+.text-msg {
+  margin-bottom: 15px !important;
+}
+
+textarea {
+  height: 220px;
+  padding-top: 20px;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn-effect:before {
+  transform-origin: left top;
+}
+
+.btn-effect:before,
+.btn-effect:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background-color: var(--second-color);
+  transform: scale(0);
+  z-index: -1;
+  border-radius: inherit;
+  transform-origin: right bottom;
+  transition: opacity ease 0.4s, visibility ease 0.4s, transform ease 0.4s;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  height: 485px;
+}
+
+.padbo-100 {
+  padding-bottom: 100px;
+}
+
+.text__primary {
+  color: var(--color-accent-1) !important;
+}
+
+.form-select,
+input[type="date"],
+input[type="number"] {
+  height: 60px;
+  box-shadow: none;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #e9ecef !important;
+}
+
+.form-control, .form-control:focus {
+  color: #212529;
+  background-color: #e9ecef !important;
+}
+
+@media (max-width: 575.98px) {
+  .contact-box {
+    justify-content: space-evenly !important;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    width: auto;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    padding-bottom: 20px;
+  }
+
+  .contact-info .btn-effect {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-box {
+    justify-content: space-evenly !important;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    width: auto;
+  }
+
+  .contact-box-email,
+  .contact-box-location,
+  .contact-box-phone {
+    padding-bottom: 20px;
+  }
+
+  .contact-info .btn-effect {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+}
+
+.main-btn {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  padding: 15px 37px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  letter-spacing: 1px;
+  color: var(--white-color) !important;
+  background-color: #233f5a;
+  transition: all 0.2s linear;
+}
+
+.contact-box-phone,
+.contact-box-location,
+.contact-box-email {
+  background: var(--white-color);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-box-phone p a,
+.contact-box-location p a,
+.contact-box-email p a {
+  max-width: 200px;
+  color: #000;
+}
+
+.contact-box-body {
+  margin-left: 0;
+}
+
+.contact-box-body i {
+  margin-bottom: 13px;
+  font-size: 34px;
+}
+
+.phone-alt {
+  background-color: #004c58;
+  color: #fff;
+}
+
+.email {
+  background-color: #655420;
+  color: #fff;
+  border: none;
+}
+
+.whatsapp {
+  background-color: #2bbc57;
+  color: #fff;
+}
+
+.contact-box h2 a {
+  color: #fff;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.map-box img {
+  width: 649px;
+  height: 768px;
+  border-radius: 24px;
+  border: 10px solid #fff;
+  object-fit: cover;
+}
+
+label {
+  text-align: right;
+}
+
+#brxe-mhgmoh {
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: nowrap;
+  margin-bottom: 11px;
+}
+
+[class*=brxe-] {
+  max-width: 100%;
+}
+.brxe-block {
+  align-items: flex-start;
+  display: flex
+;
+  flex-direction: column;
+  width: 100%;
+}
+:where(.brxe-divider).horizontal {
+  width: 100%;
+}
+:where(.brxe-divider) {
+  align-items: center;
+  display: flex
+;
+  font-size: 30px;
+  gap: 30px;
+}
+
+#brxe-cbejya.horizontal .line {
+  border-top-color: rgba(0, 0, 0, 0.6);
+}
+
+:where(.brxe-divider).horizontal .line {
+  border-top: 1px solid;
+}
+:where(.brxe-divider) .line {
+  position: relative;
+ 
+  width: 100%;
+}
+
+.Send-Now {
+  background-color: #634c07 !important;
+}
+
+/*===============================================================
+                  Contact Us 
+  ===============================================================*/
+
+  @media (max-width: 575.98px) {
+    .map-box img {
+      width: 649px;
+      height: 413px;
+    
+    }
+    
+  }
+
+  .rounded {
+      border-radius: 1.25rem !important;
+      -webkit-border-radius: 1.25rem !important;
+      -moz-border-radius: 1.25rem !important;
+      -ms-border-radius: 1.25rem !important;
+      -o-border-radius: 1.25rem !important;
+  }
+
+  .section-title h2, .section-title-left h2 {
+      color: #233f5a;
+      text-transform: capitalize;
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 45px;
+  }
+.contact-images-part img {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 278px;
+  border-radius: 20px;
+}
+
+.contact-images-part {
+  position: relative;
+}
+.contact-images-part .circle-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 203px;
+  height: 196px;
+  background: white;
+  line-height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 10px solid var(--main-color);
+}
+.contact-images-part .circle-logo img {
+  width: 40px;
+  margin-bottom: 10px;
+  height: 44px;
+}
+
+.have_acount_area {
+  text-align: center;
+}
+
+.forgotpassword a {
+
+display: block;
+
+right: 0;
+
+position: relative;
+
+text-align: right;
+
+font-size: 19px;
+
+margin-bottom: 31px;
+
+color: #ffa500;
+}
+
+
+.log ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.log ul li {
+  padding-left: 10px;
+  transition: .4s all ease-in-out;
+  -webkit-transition: .4s all ease-in-out;
+  -moz-transition: .4s all ease-in-out;
+  -ms-transition: .4s all ease-in-out;
+  -o-transition: .4s all ease-in-out;
+}
+@media (max-width: 575.98px) {
+  .section-title h2, .section-title-left h2 {
+      color: #000;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 18px;
+  }
+
+  .contact-info {
+    width: 100%;
+}
+
+
+
+}

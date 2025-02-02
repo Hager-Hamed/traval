@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Template - Travel Tour Agency Template" />
+  <meta name="keywords" content="new, html, Tour, travel, creative, booking,  personal, " />
+  <title>New travel Agency</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo.jpeg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo.jpeg">
+  <link rel="manifest" href="./assets/images/logo.jpeg">
+  <link rel="mask-icon" href="./assets/images/logo.jpeg" color="#5bbad5">
+  <!---==============================================================================================
+                          Librairies
+        ==================================================================================================-->
+  <!-- ========== font-awesome =========== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ============= Bootstrap  ===========  -->
+  <link href="./assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <!-- ============= swiper  ===========  -->
+  <link rel="stylesheet" href="./assets/lib/swiper/swiper-bundle.min.css" />
+  <!-- =============  jquery ===========  -->
+  <link rel="stylesheet" href="./assets/lib/jquery/jquery-ui.css" />
+  <link rel="stylesheet" href="./assets/lib//lity/lity.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- flat pickr -->
+  <!-- <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+   /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- ============= style  css ============= -->
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/tour.css" />
+
+
+</head>
+
+<body>
+
+  <!--====================================================================
+                          Start Navbar
+    ====================================================================-->
+  <nav class="nav-bar main-nav-bar">
+    <!-- Background Color White -->
+    <div class="nav-output">
+
+      <div class="bg-gray">
+        <div class="container-fluid bg-dark text-light px-0 ">
+          <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-5 px-5 text-start">
+              <div class="h-100 d-inline-flex align-items-center me-4">
+                <span class="fa fa-phone-alt me-2 icons" aria-hidden="true"></span>
+                <a href="tel:+0123456789" class="text text-light">
+                  <span>+0123456789</span>
+                </a>
+              </div>
+              <div class="h-100 d-inline-flex align-items-center me-4">
+                <span class="far fa-envelope me-2 icons" aria-hidden="true"></span>
+                <a href="mailto: info@yourwebsite.com" class="text text-light">
+                  <span> info@yourwebsite.com</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-7 px-5 text-end">
+              <div class="h-100 d-inline-flex align-items-center mx-n2">
+                <li class="dropdown nav-item dropdown navsLink-hasdropdown text-light  navbar_top">
+                  <a href="#" class=" text-light"> language <i class="fa-solid fa-caret-down"
+                      aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu dropdown_menu">
+
+                    <li>
+                      <a class="en dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" ls-is-cached lazyloaded" width="24" height="24" alt="English"
+                          title="English" src="https://www.cairotoptours.com/assets/images/en.webp">
+                        English
+                      </a>
+                    </li>
+                    <li>
+                      <a class="sp dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="español" title="español"
+                          src="https://www.cairotoptours.com/assets/images/sp.webp">
+                        Español
+                      </a>
+                    </li>
+                    <li>
+                      <a class="fr dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="français" title="français"
+                          src="https://www.cairotoptours.com/assets/images/fr.webp">
+                        Français
+                      </a>
+                    </li>
+                    <li>
+                      <a class="it dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="italiano" title="italiano"
+                          src="https://www.cairotoptours.com/assets/images/it.webp">
+                        Italiano
+                      </a>
+                    </li>
+                    <li>
+                      <a class="de dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="Deutsch" title="Deutsch"
+                          src="https://www.cairotoptours.com/assets/images/de.webp">
+                        Deutsch
+                      </a>
+                    </li>
+                    <li>
+                      <a class="pr dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="português" title="português"
+                          src="https://www.cairotoptours.com/assets/images/pr.webp">
+                        Português
+                      </a>
+                    </li>
+                    <li>
+                      <a class="ru dropdown-item" href="#" itemprop="url">
+                        <img loading="lazy" class=" lazyloaded" width="24" height="24" alt="русский" title="русский"
+                          src="https://www.cairotoptours.com/assets/images/ru.webp">
+                        русский
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="dropdown nav-item dropdown navsLink-hasdropdown text-light navbar_top">
+                  <a href="#" class="text-light"> Currency <i class="fa-solid fa-caret-down" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu dropdown__menu  ">
+                    <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                    <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                    <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                    <li><a href="#" itemprop="url" class="dropdown-item">€ EUR</a></li>
+                    <li><a href="#" itemprop="url" class="dropdown-item"> € EUR</a></li>
+                    <li><a href="#" itemprop="url" class="dropdown-item">€ EUR</a></li>
+
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/travel-logo-design-removebg-preview.png" alt="logo-nav" />
+          </a>
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggle">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <!-- Close button for mobile -->
+            <button type="button" class="close-nav-btn d-block d-md-none d-lg-none d-xl-none"
+              aria-label="Close navigation">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+              <li class="nav-item navsLink">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item navsLink dropdown-li">
+                <a class="nav-link" href="./SubCategory.html">
+                  Destinations
+                  <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/egypt-flag-icon.webp" alt="">
+                      Egypt
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/Flag_of_Turkey.webp" alt="">
+                      Türkiye
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/portugal-flag-icon.svg" alt="">
+
+                      Portugal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/saudi-arabia-flag-icon.webp" alt="">
+
+                      Saudi Arabia
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/germany-flag-icon.webp" alt="">
+
+                      Germany
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/russian.png" alt="">
+
+                      russian
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./tours.html">
+                      <img src="./assets/images/Italian.png" alt="">
+
+                      Italian
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item navsLink dropdown-li">
+                <a class="nav-link" href="./SubCategory.html">
+                  Travel Style
+                  <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown_icon">
+                  <li><a class="dropdown-item" href="./tours.html"> <i class="fa-solid fa-users"></i> Family Tours</a>
+                  </li>
+
+                  <li><a class="dropdown-item" href="./tours.html"> <i class="fa-solid fa-binoculars"></i> Adventure
+                      Tours</a></li>
+
+                  <li><a class="dropdown-item" href="./tours.html"><i class="fa-solid fa-sailboat"></i> Cruise Tours</a>
+                  </li>
+
+                  <li><a class="dropdown-item" href="./tours.html"><i class="fa-solid fa-mountain-sun"></i> Backpacking
+                    </a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="#"> B2B</a>
+              </li>
+
+              <li class="nav-item navsLink">
+                <a class="nav-link" href="./SpecialOffer.html"> Special Offer</a>
+              </li>
+
+              <li class="nav-item navsLink dropdown-li" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="./AboutUs.html">
+                  About Us
+                  <i class="fa-solid fa-sort-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown_icon" aria-labelledby="dropdownMenuButton">
+
+                  <li>
+                    <a class="dropdown-item" href="./ContactUs.html"> <i class="fa-solid fa-id-card"></i> Contact us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Blog.html"><i class="fa-solid fa-pen-to-square"></i> Blog</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./FAQ.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Testimonials.html"> <i class="fa-solid fa-comments"></i>
+                      Testimonials</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+            <div class="header-btn d-flex align-items-center">
+
+              <div class="fav-dropdown me-3">
+                <a href="./Cart.html" class="position-relative theme-toggle ">
+                  <i class="fa-solid fa-cart-shopping" aria-hidden="true">
+                  </i><span class="count-icon bg-secondary text-gray-9">0</span>
+                </a>
+              </div>
+              <div class="me-3">
+                <a href="./Wishlist.html" id="dark-mode-toggle" class="theme-toggle activate">
+                  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <div class="me-3">
+                <a href="./Login.html" id="dark-mode-toggle" class="theme-toggle activate">
+                  <i class="fa-solid fa-user" aria-hidden="true"></i>
+                </a>
+
+              </div>
+
+              <div class="header__hamburger d-xl-none my-auto">
+                <div class="sidebar-menu">
+                  <i class="isax isax-menu5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+  <!--====================================================================
+                          End Navbar
+         ====================================================================-->
+
+  <!--====================================================================
+                    start menu-mobile box
+    ====================================================================-->
+  <div class="d-block d-md-none d-lg-none d-xl-none">
+    <div class="menu-mobile-fixed d-flex align-items-center justify-content-between">
+      <a href="#" target="_blank">
+        <i class="fab fa-whatsapp"></i> Whats App
+      </a>
+      <a href="#"> <i class="fa fa-phone"></i> Call</a>
+      <a href="#"> <i class="fa fa-user"></i> Contact Us </a>
+      <a href="#"> <i class="fa fa-paper-plane"></i> Tailor-Made </a>
+    </div>
+  </div>
+  <!--====================================================================
+                        end menu-mobile box
+     ====================================================================-->
+  <!--====================================================================
+                                   start scroll top
+=====================================================================-->
+  <div class="scroll-top">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+            transition: stroke-dashoffset 10ms linear;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 229.847;
+          "></path>
+    </svg>
+  </div>
+  <!--====================================================================
+                                   end scroll top
+   =====================================================================-->
+
+  <!--====================================================================
+                            breadcrumb 
+   =====================================================================-->
+
+
+  <div class="breadcramb-box w-100 position-relative">
+    <div class="container">
+      <nav aria-label="breadcrumb text-center">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Tour Name</a></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+
+  <!--====================================================================
+                      breadcrumb 
+   =====================================================================-->
+  <!--===============================================================
+            tour-details
+  =================================================================-->
+
+  <section class="tour-details padbo-60">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <div class="tour_heading mt-5 mb-3">
+            <h1>3 Days Bahariya Oasis and White Desert Safari Trip</h1>
+          </div>
+
+          <div class="gallery-box mb-5">
+            <div class="image-slider">
+              <section class="slider__content">
+                <button type="button" class="slider-control--button prev-button">
+                  <svg width="16" height="16" fill="currentColor" class="icon arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                  </svg>
+                </button>
+                <main class="image-display"></main>
+                <button type="button" class="slider-control--button next-button">
+                  <svg width="16" height="16" fill="currentColor" class="icon arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                  </svg>
+                </button>
+              </section>
+              <nav class="slider-navigation">
+                <button class="nav-button" aria-selected="true">
+                  <img class="thumbnail" src="./assets/images/tour-large-05.jpg" alt="Thumbnail 1" />
+                </button>
+                <button class="nav-button" aria-selected="false">
+                  <img class="thumbnail" src="./assets/images/gallery-1.jpg" alt="Thumbnail 2" />
+                </button>
+                <button class="nav-button" aria-selected="false">
+                  <img class="thumbnail" src="./assets/images/tour-list10.jpg" alt="Thumbnail 3" />
+                </button>
+                <button class="nav-button" aria-selected="false">
+                  <img class="thumbnail" src="./assets/images/tours-13.jpg" alt="Thumbnail 4" />
+                </button>
+                <button class="nav-button" aria-selected="false">
+                  <img class="thumbnail" src="./assets/images/tours-16.jpg" alt="Thumbnail 5" />
+                </button>
+                <button class="nav-button" aria-selected="false">
+                  <img class="thumbnail" src="./assets/images/tour-large-03.webp" alt="Thumbnail 6" />
+                </button>
+              </nav>
+            </div>
+
+          </div>
+          <div class="tour-overview" id="tourOverview">
+            <div class="tour-title-box d-flex align-items-center gap-2">
+              <span>
+                <i class="fa-regular fa-file-lines"></i>
+              </span>
+              <h2 class="tour-details-title">Tour overview</h2>
+            </div>
+            <div class="tour-overview-text desc-link-content">
+              <p>
+                Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and
+                Europe,
+                including Los Angeles, New York, Chicago, Toronto, and London. Each concert will showcase her unique
+                blend of
+                pop and ethereal soundscapes, bringing her music to life in a way you've never seen before.
+
+                Each concert will showcase her unique blend of pop and ethereal soundscapes, bringing her music to life
+                in a
+                way you've never seen before.
+              </p>
+
+            </div>
+          </div>
+          <!-- <div class="tour-nav">
+            <div class="container">
+              <div class="tour-nav-content d-flex align-items-center">
+                <h3 class="active"><a href="#tourOverview">Overview </a></h3>
+                <h3><a href="#itineraries">Itinerary </a></h3>
+                <h3><a href="#include-exclude">Included/Excluded</a></h3>
+                <h3><a href="#priceTable">Prices</a></h3>
+                <h3><a href="#price-policy">Price Policy</a></h3>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="highlight-box mt-3">
+            <div class="tour-title-box d-flex align-items-center gap-2">
+              <span>
+                <i class="fa-solid fa-highlighter"></i>
+              </span>
+              <h2 class="tour-details-title">Highlights</h2>
+            </div>
+            <div class="highlight-list">
+              <div class="hightlight-notes desc-link-content">
+                <h4>
+                </h4>
+                <ul>
+                  <li>Explore the monumental <strong>Karnak Temple</strong>, the largest
+                    religious complex in Egypt.</li>
+                  <li>Visit the <strong>Luxor Temple</strong>, famous for its stunning
+                    avenue of sphinxes and grand statues.</li>
+                  <li>Discover the tombs of Egypt's pharaohs at the <strong>Valley of the
+                      Kings</strong>, including the tomb of King Tut.</li>
+                  <li>Admire the impressive <strong>Temple of Hatshepsut</strong>, one of
+                    the most remarkable temples in Egypt.</li>
+                  <li>See the awe-inspiring <strong>Colossi of Memnon</strong>, two massive
+                    statues that once stood at the entrance of an ancient temple.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="itineraries-container" id="itineraries">
+            <div class="Itineraries mt-3">
+              <div class="tour-title-box d-flex align-items-center gap-2 position-relative">
+                <span>
+                  <i class="fa-solid fa-route"></i>
+                </span>
+                <h2 class="tour-details-title">Itinerary </h2>
+                <button class="itinerary-door" id="openItinerary">
+                  Open Itineraries
+                </button>
+              </div>
+              <div class="accordion-text">
+                <div class="accordion-two mt-2 mb-2" id="faq-accordion-two">
+                  <div class="accordion-two mt-25 mb-60" id="faq-accordion-two">
+                    <div class="accordion-item">
+                      <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwoOne" aria-expanded="false">
+                          Day 1 - Arrive at campground
+                        </button>
+                      </h5>
+                      <div id="collapseTwoOne" class="accordion-collapse collapse show"
+                        data-bs-parent="#faq-accordion-two" style="">
+                        <div class="accordion-body">
+                          <img src="./assets/images/tour-20.jpg" alt="Itineraries-img">
+                          <p>
+                            To take a trivial example which undertakes laborious
+                            physical exercise except to obtain some advantage
+                            pleasure annoying consequences
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwoTwo" aria-expanded="true">
+                          Day 2 - Wake up early and embark on a day hike
+                        </button>
+                      </h5>
+                      <div id="collapseTwoTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion-two"
+                        style="">
+                        <div class="accordion-body">
+                          <img src="./assets/images/tour-21.jpg" alt="Itineraries-img">
+                          <p>
+                            The early start ensures you can fully immerse yourself
+                            in the tranquility of nature before the world fully
+                            awakens. As the morning light filters through the trees,
+                            you'll experience the crisp, fresh air and the peaceful
+                            sounds of the forest. The trail ahead offers both a
+                            physical challenge promise of breathtaking. The early start ensures you can fully immerse
+                            yourself
+                            in the tranquility of nature before the world fully
+                            awakens. As the morning light filters through the trees,
+                            you'll experience the crisp, fresh air and the peaceful
+                            sounds of the forest. The trail ahead offers both a
+                            physical challenge promise of breathtaking.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwoThree">
+                          Day 3 - Join a guided ranger-led nature walk
+                        </button>
+                      </h5>
+                      <div id="collapseTwoThree" class="accordion-collapse collapse"
+                        data-bs-parent="#faq-accordion-two">
+                        <div class="accordion-body">
+                          <img src="./assets/images/tour-22.jpg" alt="Itineraries-img">
+                          <p>
+                            To take a trivial example which undertakes laborious
+                            physical exercise except to obtain some advantage
+                            pleasure annoying consequences
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwoFour">
+                          Day 4 - Take a break from hiking
+                        </button>
+                      </h5>
+                      <div id="collapseTwoFour" class="accordion-collapse collapse" data-bs-parent="#faq-accordion-two">
+                        <div class="accordion-body">
+                          <img src="./assets/images/tour-23.jpg" alt="Itineraries-img">
+                          <p>
+                            To take a trivial example which undertakes laborious
+                            physical exercise except to obtain some advantage
+                            pleasure annoying consequences
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- <div class="accordion-item">
+                     <h5 class="accordion-header">
+                      <button class="accordion-button " data-bs-toggle="collapse" data-bs-target="#collapseTwo1">
+                        Tour to East Bank and West Bank of Luxor
+                      </button>
+                    </h5> 
+                   
+                     <div id="collapseTwo1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion-two">
+                      <div class="accordion-body">
+                        <p><span style="color:#202124;">After enjoying your breakfast at the hotel, you will be
+                            accompanied by our expert tour guide in a private air-conditioned vehicle for a full day of
+                            exploring Luxor's most iconic landmarks.&nbsp;</span></p>
+                        <p><strong>Karnak Temple</strong></p>
+                       
+                    
+                        <div class="modal fade " id="info0" tabindex="-1" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content" style="border-radius: 20px">
+                              <div class="modal-header">
+                                <div class="modal-title">
+                                  <b>Cairo Home-Hosted Dinner</b>
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body" style="padding: 0">
+                                <div style="padding: 1rem">
+                                  <p>75$
+                                    Per Person</p>
+                                  <p>3 hours, departs in the evening, dinner included
+                                  </p>
+                                </div>
+                                <img loading="lazy"
+                                  src="https://www.egyptdaytrips.com/storage/206/conversions/egyptian-food-webp.webp"
+                                  title="Cairo Home-Hosted Dinner" alt="Cairo Home-Hosted Dinner"
+                                  style="object-fit: cover;width: 100%;height: 100%;object-position: center;border-radius: 0px !important;">
+                                <div style="padding: 1rem" class="desc-link-content">
+                                  <p></p>
+                                  <p>Dive into the heart of Egyptian culture with a unique home-hosted dinner experience
+                                    in Cairo. Enjoy a warm and welcoming atmosphere as you dine with locals who prepare
+                                    traditional, homemade dishes bursting with flavor. From classic favorites like
+                                    koshary and molokhia to sweet treats like basbousa, each dish tells a story of
+                                    Egypt's rich culinary heritage.</p>
+                                  <p>This experience goes beyond the food—it’s an opportunity to connect with locals,
+                                    learn about their way of life, and hear fascinating stories about Egyptian
+                                    traditions and history. Perfect for those seeking a more personal and authentic
+                                    encounter, this dinner offers a genuine taste of Egypt in every sense.</p>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="include-exclude mt-3" id="include-exclude">
+            <div class="tour-include-exclude-table d-flex gap-2">
+              <div class="tour-include desc-link-content">
+                <div class="tour-title-box d-flex align-items-center gap-2">
+                  <div class="include-title d-flex align-items-center">
+                    <span>
+                      <i class="fa-solid fa-check"></i>
+                    </span>
+                    <h2 class="tour-details-title">Included</h2>
+                  </div>
+                </div>
+                <ul>
+                  <li>Pick up services from your hotel in Luxor and return</li>
+                  <li>All transfers by a private air-conditioned vehicle</li>
+                  <li>Private English-speaking Egyptologist guide</li>
+                  <li>Entrance fees to all the mentioned sites</li>
+                  <li>Bottled water on board the vehicle during the tour</li>
+                  <li>All service charges &amp; taxes</li>
+                </ul>
+              </div>
+
+              <div class="tour-exclude desc-link-content">
+                <div class="tour-title-box d-flex align-items-center gap-2">
+                  <div class="exclude-title d-flex align-items-center">
+                    <span>
+                      <i class="fa-solid fa-xmark"></i>
+                    </span>
+                    <h2 class="tour-details-title">Excluded</h2>
+                  </div>
+                </div>
+                <ul>
+                  <li>Any extras not mentioned in the program</li>
+                  <li>Tipping</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-box mt-3" id="priceTable">
+            <div class="tour-title-box d-flex align-items-center gap-2">
+              <span>
+                <i class="fa-solid fa-route"></i>
+              </span>
+              <h2 class="tour-details-title">Prices</h2>
+            </div>
+            <div class="price-box-content">
+              <div class="basic-price">
+                <div class="price-policy">
+
+                  <div class="price-policy">
+                    <table class="responstable">
+                      <tbody>
+                        <tr>
+                          <th>Persons </th>
+                          <th>Prices </th>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            1 Person
+
+                          </td>
+                          <td>
+                            86$
+                            Per Person
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            2 Persons
+                          </td>
+                          <td>
+                            51$
+                            Per Person
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            3 Persons
+                          </td>
+                          <td>
+                            45$
+                            Per Person
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            4 Persons
+                          </td>
+                          <td>
+                            38$
+                            Per Person
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            5 Persons
+                          </td>
+                          <td>
+                            34$
+                            Per Person
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-user-group"></i>
+                            6 Persons
+                          </td>
+                          <td>
+                            32$
+                            Per Person
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="price-note mt-30 mb-30 desc-link-content">
+                    <h2 class="price-note-head">
+                      <i class="fa-regular fa-pen-to-square"></i>Price notes
+                    </h2>
+                    <p>
+                    </p>
+                    <ul>
+                      <li>Prices may vary based on the season and group size.</li>
+                      <li>Rates typically cover entrance fees, transportation, and guided tours.</li>
+                      <li>Additional costs may apply for optional activities or services not included in the package.
+                      </li>
+                      <li>Children's discounts may be available depending on age and operator policy.</li>
+                      <li>Prices are usually quoted in USD or EGP and may be subject to exchange rate fluctuations.</li>
+                    </ul>
+                    <p></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="price-box mt-3" id="location">
+            <div class="tour-title-box d-flex align-items-center gap-2">
+              <span>
+                <i class="fa-solid fa-route"></i>
+              </span>
+              <h2 class="tour-details-title">Tours location</h2>
+            </div>
+
+            <div class="price-box-content">
+              <div class="map_area">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.6962663570607!2d89.56355961427838!3d22.813715829827952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff901efac79b59%3A0x5be01a1bc0dc7eba!2sAnd+IT!5e0!3m2!1sen!2sbd!4v1557901943656!5m2!1sen!2sbd"></iframe>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <div class="tour-details-right h-100">
+            <div class="tour-details-package mb-5 mt-5">
+              <div class="tour-details-package-item">
+                <h3 class="tour-details-package-title widget_title" id="Check_Availability">
+                  <i class="fa-solid fa-signs-post"></i>
+                  Tour Details
+                </h3>
+                <!-- <div class="tour-details-package-content">
+
+                  <div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Date</h6>
+                      <p class="flex-fill">25 May 2025 - 31 May 2025</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Destination</h6>
+                      <p class="flex-fill">Eidnesburg</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Duration</h6>
+                      <p class="flex-fill">4 Day, 3 Night</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Departure</h6>
+                      <p class="flex-fill">25 May 2025, 04:45 AM</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Return</h6>
+                      <p class="flex-fill">31 May 2025, 10:00 PM</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
+                      <h6 class="fw-medium">Total Peoples</h6>
+                      <p class="flex-fill">28</p>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="box-info-tour">
+                  <div class="tour-info-group">
+                    <div class="icon-item background-3">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/from.svg" alt="from.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Price from</p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">
+                        3500$</p>
+                    </div>
+                  </div>
+
+                  <div class="tour-info-group">
+                    <div class="icon-item">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/duration.svg"
+                        alt="duration.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Duration </p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">9 Days</p>
+                    </div>
+                  </div>
+
+                  <div class="tour-info-group">
+                    <div class="icon-item background-3">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/tour-location.svg"
+                        alt="location.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Location</p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">
+                        Cairo, Luxor, Aswan </p>
+                    </div>
+                  </div>
+
+                  <div class="tour-info-group">
+                    <div class="icon-item background-1">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/people.svg" alt="people.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Group size</p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">10</p>
+                    </div>
+                  </div>
+
+                  <div class="tour-info-group">
+                    <div class="icon-item background-7">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/tour-type.svg"
+                        alt="tour-type.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Type</p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">package</p>
+                    </div>
+                  </div>
+
+                  <div class="tour-info-group">
+                    <div class="icon-item background-3">
+                      <img loading="lazy" src="https://www.egyptdaytrips.com/assets/images/pickup.svg" alt="pickup.svg">
+                    </div>
+                    <div class="info-item">
+                      <p class="text-sm-medium neutral-600">Pick Up &amp; Drop off</p>
+                    </div>
+                    <div class="info-item-para">
+                      <p class="text-lg-bold neutral-1000">
+                        Cairo Airport
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <section id="theme_search_form">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="theme_search_form_area">
+           
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="flights" role="tabpanel"
+                                        aria-labelledby="flights-tab">
+                                        <div class="tab-content" id="myTabContent1">
+                                            <div class="tab-pane fade show active" id="oneway_flight" role="tabpanel"
+                                                aria-labelledby="oneway-tab">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="oneway_search_form">
+                                                            <form action="#!">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4  col-md-6 col-sm-12 col-12">
+                                                                        <div class="form_search_date">
+                                                                            <div class="flight_Search_boxed date_flex_area">
+                                                                              
+                                                                                <div class="form-group">
+                                                                                    <label for="date-picker" class="check"> Start Date</label>
+                                                                                    <input type="text" id="date-picker" class="flatpickr form-control " placeholder="dd-mm-YY">
+                                                          
+                                                                                  </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-2  col-md-6 col-sm-12 col-12">
+                                                                        <div
+                                                                            class="flight_Search_boxed dropdown_passenger_area">
+                                                                            <p>Passenger, Class </p>
+                                                                            <div class="dropdown">
+                                                                                <button class="dropdown-toggle final-count"
+                                                                                    data-toggle="dropdown" type="button"
+                                                                                    id="dropdownMenuButton1"
+                                                                                    data-bs-toggle="dropdown"
+                                                                                    aria-expanded="false">
+                                                                                    0 Passenger
+                                                                                </button>
+                                                                                <div class="dropdown-menu dropdown_passenger_info"
+                                                                                    aria-labelledby="dropdownMenuButton1">
+                                                                                    <div class="traveller-calulate-persons">
+                                                                                        <div class="passengers">
+                                                                                            <h6>Passengers</h6>
+                                                                                            <div class="passengers-types">
+                                                                                                <div class="passengers-type">
+                                                                                                    <div class="text"><span
+                                                                                                            class="count pcount">2</span>
+                                                                                                        <div class="type-label">
+                                                                                                            <p>Adult</p>
+                                                                                                            <span>12+
+                                                                                                                yrs</span>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="button-set">
+                                                                                                        <button type="button"
+                                                                                                            class="btn-add">
+                                                                                                            <i
+                                                                                                                class="fas fa-plus"></i>
+                                                                                                        </button>
+                                                                                                        <button type="button"
+                                                                                                            class="btn-subtract">
+                                                                                                            <i
+                                                                                                                class="fas fa-minus"></i>
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="passengers-type">
+                                                                                                    <div class="text"><span
+                                                                                                            class="count ccount">0</span>
+                                                                                                        <div class="type-label">
+                                                                                                            <p
+                                                                                                                class="fz14 mb-xs-0">
+                                                                                                                Children
+                                                                                                            </p><span>2
+                                                                                                                - Less than 12
+                                                                                                                yrs</span>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="button-set">
+                                                                                                        <button type="button"
+                                                                                                            class="btn-add-c">
+                                                                                                            <i
+                                                                                                                class="fas fa-plus"></i>
+                                                                                                        </button>
+                                                                                                        <button type="button"
+                                                                                                            class="btn-subtract-c">
+                                                                                                            <i
+                                                                                                                class="fas fa-minus"></i>
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="passengers-type">
+                                                                                                    <div class="text"><span
+                                                                                                            class="count incount">0</span>
+                                                                                                        <div class="type-label">
+                                                                                                            <p
+                                                                                                                class="fz14 mb-xs-0">
+                                                                                                                Infant
+                                                                                                            </p><span>Less
+                                                                                                                than 2
+                                                                                                                yrs</span>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="button-set">
+                                                                                                        <button type="button"
+                                                                                                            class="btn-add-in">
+                                                                                                            <i
+                                                                                                                class="fas fa-plus"></i>
+                                                                                                        </button>
+                                                                                                        <button type="button"
+                                                                                                            class="btn-subtract-in">
+                                                                                                            <i
+                                                                                                                class="fas fa-minus"></i>
+                                                                                                        </button>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- <span>Business</span> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="top_form_search_button">
+                                                                        <button class="btn__effect">Search</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+              <div class="tour-details-package mb-5 mt-4">
+                <div class="tour-details-package-item">
+                  <h3 class="tour-details-package-title widget_title" id="Check_Availability">
+                    <i class="fa-solid fa-tags"></i>
+                    Starts From
+                    <br>
+                    <span class="tour-heading-price">
+                      $500 / per person
+                    </span>
+                  </h3>
+                  <aside class="tour_details_right  ">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="date-picker" class="check"> Start Date</label>
+                          <input type="text" id="date-picker" class="flatpickr form-control " placeholder="dd-mm-YY">
+
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="flight_Search_boxed dropdown_passenger_area">
+                          <p>Passenger, Class </p>
+                          <div class="dropdown">
+                              <button class="dropdown-toggle final-count show" data-toggle="dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
+                                  0 Passenger
+                              </button>
+                              <div class="dropdown-menu dropdown_passenger_info show" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-228px, 35px);" data-popper-placement="bottom-end">
+                                  <div class="traveller-calulate-persons">
+                                      <div class="passengers">
+                                          <h6>Passengers</h6>
+                                          <div class="passengers-types">
+                                            <div class="cart_con">
+                                              <label class="w-100 cart_l">
+                                                Adults <br> ( + 12 years)
+                                              </label>
+                                              <div class="tourist-item-group ">
+                                                <button type="button" id="adults_dec" class="decrease-btn">-</button>
+                                                <input disabled="" id="adults_val" max="50" value="0" type="text"
+                                                  class="quantity-input" data-type="adult">
+                                                <button type="button" id="adults_inc" style="cursor: pointer;"
+                                                  class="increase-btn">+</button>
+                                              </div>
+                                            </div>
+                                              <!-- <div class="passengers-type">
+                                                  <div class="text"><span class="count pcount">2</span>
+                                                      <div class="type-label">
+                                                          <p>Adult</p>
+                                                          <span>12+
+                                                              yrs</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="button-set">
+                                                      <button type="button" class="btn-add">
+                                                          <i class="fas fa-plus"></i>
+                                                      </button>
+                                                      <button type="button" class="btn-subtract">
+                                                          <i class="fas fa-minus"></i>
+                                                      </button>
+                                                  </div>
+                                              </div>
+                                              <div class="passengers-type">
+                                                  <div class="text"><span class="count ccount">0</span>
+                                                      <div class="type-label">
+                                                          <p class="fz14 mb-xs-0">
+                                                              Children
+                                                          </p><span>2
+                                                              - Less than 12
+                                                              yrs</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="button-set">
+                                                      <button type="button" class="btn-add-c">
+                                                          <i class="fas fa-plus"></i>
+                                                      </button>
+                                                      <button type="button" class="btn-subtract-c">
+                                                          <i class="fas fa-minus"></i>
+                                                      </button>
+                                                  </div>
+                                              </div>
+                                              <div class="passengers-type">
+                                                  <div class="text"><span class="count incount">0</span>
+                                                      <div class="type-label">
+                                                          <p class="fz14 mb-xs-0">
+                                                              Infant
+                                                          </p><span>Less
+                                                              than 2
+                                                              yrs</span>
+                                                      </div>
+                                                  </div>
+                                                  <div class="button-set">
+                                                      <button type="button" class="btn-add-in">
+                                                          <i class="fas fa-plus"></i>
+                                                      </button>
+                                                      <button type="button" class="btn-subtract-in">
+                                                          <i class="fas fa-minus"></i>
+                                                      </button>
+                                                  </div>
+                                              </div> -->
+                                          </div>
+                                      </div>
+                                 
+                                  </div>
+                              </div>
+                          </div>
+                          <span>Business</span>
+                      </div>
+                      </div>
+                    </div>
+                  </aside>
+
+
+                </div>
+
+              </div>
+
+              <div class="tour-details-package mb-5 mt-4">
+                <div class="tour-details-package-item">
+                  <div class="banner-form">
+                    <form action="tour-booking.html">
+                      <div class="form-info border-0">
+                        <aside class="tour_details_right cart-row ">
+                          <h3 class="widget_title"><i class="fa-solid fa-check-to-slot"></i> Check your price offer
+                          </h3>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Adults <br> ( + 12 years)
+                                </label>
+                                <div class="tourist-item-group ">
+                                  <button type="button" id="adults_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="adults_val" max="50" value="0" type="text"
+                                    class="quantity-input" data-type="adult">
+                                  <button type="button" id="adults_inc" style="cursor: pointer;"
+                                    class="increase-btn">+</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Children <br> (6- 11 Years)
+                                </label>
+
+                                <div class="tourist-item-group">
+                                  <button type="button" id="Children_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="Children_val" max="30" value="0" type="text"
+                                    class="quantity-input">
+                                  <button type="button" id="Children_inc" class="increase-btn">+</button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Children <br> (3 - 5 Years)
+                                </label>
+                                <div class="tourist-item-group">
+                                  <button type="button" id="Childrenkid_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="Childrenkid_val" max="30" value="0" type="text"
+                                    class="quantity-input">
+                                  <button type="button" id="Childrenkid_inc" class="increase-btn">+</button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Infants <br> (up to 2 years)
+                                </label>
+                                <div class="tourist-item-group ">
+                                  <button type="button" id="Infants_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="Infants_val" max="20" value="0" type="text"
+                                    class="quantity-input">
+                                  <button type="button" id="Infants_inc" style="cursor: pointer;"
+                                    class="increase-btn">+</button>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="row">
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Adults
+                                </label>
+                                <div class="tourist-item-group ">
+                                  <button type="button" id="adults_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="adults_val" max="50" value="0" type="text"
+                                    class="quantity-input" data-type="adult">
+                                  <button type="button" id="adults_inc" style="cursor: pointer;"
+                                    class="increase-btn">+</button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Infants <br> ( 0-12 Yrs )
+                                </label>
+                                <div class="tourist-item-group ">
+                                  <button type="button" id="Infants_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="Infants_val" max="20" value="0" type="text"
+                                    class="quantity-input">
+                                  <button type="button" id="Infants_inc" style="cursor: pointer;"
+                                    class="increase-btn">+</button>
+                                </div>
+
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="cart_con">
+                                <label class="w-100 cart_l">
+                                  Children <br> ( 2-12 Yrs )
+                                </label>
+                                <div class="tourist-item-group">
+                                  <button type="button" id="Childrenkid_dec" class="decrease-btn">-</button>
+                                  <input disabled="" id="Childrenkid_val" max="30" value="0" type="text"
+                                    class="quantity-input">
+                                  <button type="button" id="Childrenkid_inc" class="increase-btn">+</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div> -->
+                        </aside>
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <aside class="tour_details_right cart-row">
+                <h3 class="widget_title"> <i class="fa-solid fa-money-bill"></i>Price Breakdown </h3>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="cartcon">
+                      <label class="w-100 cart_l">
+                        <i class="fa-solid fa-person" aria-hidden="true"></i> Adults ( + 12 Years)
+                      </label>
+                      <div class="tourist-item-group ">
+                        <span> $<span class="total-price" id="case-total">0.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-12">
+                    <div class="cartcon">
+                      <label class="w-100 cart_l">
+                        <i class="fa-solid fa-child" aria-hidden="true"></i> Children ( 6 - 11 Years)
+                      </label>
+                      <div class="tourist-item-group ">
+                        <span> $<span class="total-price" id="Children-total">0.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="cartcon">
+                      <label class="w-100 cart_l">
+                        <i class="fa-solid fa-child" aria-hidden="true"></i> Children ( 3- 5 Years)
+                      </label>
+                      <div class="tourist-item-group ">
+                        <span> $<span class="total-price" id="Children_total">30.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-12">
+                    <div class="cartcon">
+                      <label class="w-100 cart_l">
+                        <i class="fa-solid fa-child-reaching" aria-hidden="true"></i> Infants
+                        ( 0-12 Yrs )
+                      </label>
+                      <div class="tourist-item-group ">
+                        <span> $<span class="total-price" id="Infants-total">40.00</span></span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="cartcon">
+                      <label class="w-100 cart_l">
+                        <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                        Total From
+                      </label>
+                      <div class="tourist-item-group total-price ">
+                        <span>$<span id="subtotalPrice">70.00</span></span>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <a href="./Cart.html" class="btn  btn-effect  w-100 mb-4">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    Add to cart
+                  </a>
+
+
+                </div>
+
+              </aside>
+
+
+
+              <div class="card tour-details_card">
+                <h3 class="tour-details-package-title widget_title" id="Check_Availability">
+                  <i class="fa-solid fa-paperclip"></i>
+                  Why Book With Us
+                </h3>
+                <div class="card-body">
+                  <div>
+                    <p class="d-flex align-items-center mb-3"><i class="fa-solid fa-medal me-2"></i>Expertise and
+                      Experience</p>
+                    <p class="d-flex align-items-center mb-3"><i class="fa-solid fa-list me-2"></i>Tailored Services</p>
+                    <p class="d-flex align-items-center mb-3"><i class="fa-regular fa-note-sticky me-2"></i>
+                      Comprehensive Planning</p>
+                    <p class="d-flex align-items-center mb-3"><i class="fa-solid fa-user-plus  me-2"></i> Client
+                      Satisfaction</p>
+                    <p class="d-flex align-items-center"><i class="fa-solid fa-face-smile  me-2"></i> 24/7 Support</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tour-details-package mb-5">
+                <div class="tour-details-package-item">
+                  <h3 class="tour-details-package-title widget_title">
+                    <i class="fa-solid fa-comments"></i>
+                    Enquire Us
+                  </h3>
+                  <div class="tour-details-package-content">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <input type="text" class="form-control border-0 mt-24 mb-4" id="name" placeholder="Your Name">
+                          <label for="name">Your Name</label>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <input type="email" class="form-control border-0 mt-24 mb-4" id="email"
+                            placeholder="Your Email">
+                          <label for="email">Your Email</label>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <input type="number" class="form-control border-0 mt-24 mb-4" id="namphonee"
+                            placeholder="Your phone">
+                          <label for="phone">phone</label>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-12">
+                        <div class="form-floating mb-4">
+                          <textarea class="form-control border-0" placeholder="Leave a message here" id="message"
+                            style="height: 160px"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                        <div class="tour-details-package-total">
+                          <div class="package-footer package_footer">
+                            <a class="effect blogs-btn" href="#" title="Read More">Submit Enquiry </a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="card tour-details_card">
+                <h3 class="tour-details-package-title widget_title" id="Check_Availability">
+                  <i class="fa-solid fa-headset"></i>
+                  Provider Details
+                </h3>
+                <div class="border br-10 mb-3 p-3">
+                  <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+                    <span class="avatar avatar-sm me-2 rounded-circle flex-shrink-0 bg-primary"><i
+                        class="fa-solid fa-phone-volume"></i></span>
+                    <p>Call Us : +1 12545 45548</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="avatar avatar-sm me-2 rounded-circle flex-shrink-0 bg-primary"><i
+                        class="fa-solid fa-envelope"></i></span>
+                    <p>Email : Info@example.com</p>
+                  </div>
+                </div>
+                <div class="row g-2">
+                  <div class="col-sm-6">
+                    <a href="https://api.whatsapp.com/send/?phone=201067865053&amp;text=i+found+your+No+on+website&amp;type=phone_number&amp;app_absent=0"
+                      target="_blank" class="btn btn-light d-flex align-items-center justify-content-center"><i
+                        class="fa-brands fa-whatsapp me-2"></i>Whatsapp Us</a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="tel:++201067865053"
+                      class="btn btn-primary d-flex align-items-center justify-content-center"><i
+                        class="fa-solid fa-phone-volume me-2"></i>Chat Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="related-box">
+          <h2 class="tour-details-title text-center fs-1 fw-bold mt-30 mb-30">Related Tours</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="tours-item mb-2">
+                <div class="image">
+                  <div class="ratting">
+                    <i class="fas fa-star"></i>
+                    4.8
+                  </div>
+                  <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                  <a href="./tour-details.html"><img
+                      src="https://dreamstour.dreamstechnologies.com/html/assets/img/tours/tours-30.jpg"
+                      alt="Destination"></a>
+                </div>
+                <div class="contentt">
+                  <span class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    France, Paris
+                  </span>
+                  <h5>
+                    <a href="./tour-details.html">3 Days Bahariya Oasis and White Desert Safari Trip</a>
+                  </h5>
+                  <div class="tours-item-para">
+                    <p>
+                      It is a long-established fact that a reader will be distracted by the readable
+                      content of a page when focusing on the layout of the text or the layout of the
+                      paragraphs on the
+                      page he is
+                      reading.
+                    </p>
+                  </div>
+                  <span class="time"><i class="fa-solid fa-calendar-days"></i> 3 days 2 </span>
+                </div>
+                <div class="destination-footer">
+                  <span class="price"><span>$58.00</span> /per person</span>
+                  <a href="#" class="read-more">
+                    Book now
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="tours-item mb-2">
+                <div class="image">
+                  <a href="#" class="heart heart_hover">
+                    <i class="fas fa-heart"></i></a>
+                  <a href="./tour-details.html"><img
+                      src="https://dreamstour.dreamstechnologies.com/html/assets/img/tours/tours-11.jpg"
+                      alt="Destination"></a>
+                </div>
+                <div class="contentt">
+                  <span class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    New York
+                  </span>
+                  <h5>
+                    <a href="./tour-details.html">
+                      Mountain Trek</a>
+                  </h5>
+                  <div class="tours-item-para">
+                    <p>
+                      It is a long-established fact that a reader will be distracted by the readable
+                      content of a page
+                      when focusing on the layout of the text or the layout of the paragraphs on the
+                      page he is reading.
+                    </p>
+                  </div>
+                  <span class="time"><i class="fa-solid fa-calendar-days"></i> 3 days 2 </span>
+                </div>
+                <div class="destination-footer">
+                  <span class="price"><span>$63.00</span>
+                    /per person</span>
+                  <a href="#" class="read-more">
+                    Book now
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="tours-item mb-2">
+                <div class="image">
+                  <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                  <a href="./tour-details.html"><img
+                      src="https://dreamstour.dreamstechnologies.com/html/assets/img/tours/tours-15.jpg"
+                      alt="Destination"></a>
+                </div>
+                <div class="contentt">
+                  <span class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Antalya, Turkey
+                  </span>
+                  <h5>
+                    <a href="./tour-details.html">Woman standing near the Colosseum, Rome</a>
+                  </h5>
+                  <div class="tours-item-para">
+                    <p>
+                      It is a long-established fact that a reader will be distracted by the readable
+                      content of a page
+                      when focusing on the layout of the text or the layout of the paragraphs on the
+                      page he is reading.
+                    </p>
+                  </div>
+                  <span class="time"><i class="fa-solid fa-calendar-days"></i> 3 days 2 </span>
+                </div>
+                <div class="destination-footer">
+                  <span class="price"><span>$63.00</span>
+                    /per person</span>
+                  <a href="#" class="read-more">
+                    Book now
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===============================================================
+          tour-details
+  =================================================================-->
+  <!--===============================================================
+                     start Faq Section
+=============================================================-->
+  <section class="faq  my-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center counter-text-wrap mb-3  mt-3">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20">
+                <g opacity="0.8">
+                  <path
+                    d="M9.06226 11.3626L8.55838 13.7263L6.22997 20.0004L7.61194 19.7701L14.0678 11.3277C14.979 11.296 15.8626 11.2471 16.6304 11.1713C20.1826 10.82 19.9984 10.0002 19.9984 10.0002C19.9984 10.0002 20.1826 9.18031 16.6304 8.829C15.8626 8.7529 14.9789 8.70407 14.0678 8.67261L7.61197 0.229974L6.22997 -6.01907e-07L8.55838 6.27416L9.06226 8.6378C7.87942 8.6555 7.07898 8.68244 7.07898 8.68244C7.07898 8.68244 5.44724 8.7201 2.92253 9.28895L0.864093 6.43364L-0.000128074 6.43364L0.615287 9.90529C0.504522 9.93924 0.504522 10.0611 0.615287 10.0951L-0.000128385 13.5667L0.864093 13.5667L2.92253 10.7117C5.44724 11.2806 7.07898 11.3177 7.07898 11.3177C7.07898 11.3177 7.87942 11.3449 9.06226 11.3626Z">
+                  </path>
+                  <path
+                    d="M13.4102 13.2575L13.4102 14.1895L9.96575 14.1895L9.96575 13.2575L13.4102 13.2575ZM13.4102 5.81414L13.4102 6.7458L9.96595 6.7458L9.96595 5.81414L13.4102 5.81414ZM11.0863 16.385L11.0863 17.3167L7.90291 17.3167L7.90291 16.385L11.0863 16.385ZM11.0863 2.68689L11.0863 3.61885L7.90291 3.61885L7.90291 2.68689L11.0863 2.68689Z">
+                  </path>
+                </g>
+              </svg>
+              Faq
+
+            </h2>
+            <p>
+              We offer a variety of Egypt trips that allow you to experience the captivating Egyptian
+              climate and marvel
+              at the country’s stunning monuments. Our Egypt tours from the USA will take you to renowned
+              sites like the
+              Giza Pyramids, the Saqqara Necropolis, and the impressive Sphinx. Exp
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button id="accordion-button-1" aria-expanded="true"><span class="accordion-title">Why is
+                  the moon
+                  sometimes out during the day?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is
+                  the sky
+                  blue?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we
+                  ever discover
+                  aliens?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much
+                  does the
+                  Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded=" false"><span class="accordion-title">Why is
+                  the sky
+                  blue?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is
+                  the sky
+                  blue?</span><span class="icon" aria-hidden="true"></span></button>
+              <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore
+                  et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                  viverra suspendisse
+                  potenti.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gsc-column el-9654132 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12    ">
+          <div class="column-inner  bg-size-cover ">
+            <div class="column-content-inner">
+
+              <div class="image-content-one__single  skin-v1">
+                <div class="image-content-one__image">
+                  <div class="image-inner">
+                    <img src="./assets/images/faq2.png" alt="28" class="faq_img">
+                    <a class="image-content-one__link-overlay" href="#">
+
+                    </a>
+                  </div>
+                </div>
+                <div class="image-content-one__image-second">
+                  <div class="image-inner">
+                    <img src="./assets/images/faq.png" alt="28">
+                    <a class="image-content-one__link-overlay" href="#">
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===============================================================
+            start Faq Section
+  =================================================================-->
+
+  <!--====================================================================
+                             start news-letters
+=====================================================================-->
+
+  <div class="newsletter-section position-relative fix">
+    <div class="container">
+      <div class="newsletter-wrap">
+        <div class="newsletter-content d-flex align-items-center">
+          <img src="./assets/images/email-icon.png" alt="img">
+          <h2 class="white">
+            Get The Latest News
+          </h2>
+        </div>
+        <form action="#" class="wow fadeInDown">
+          <input type="email" placeholder="Enter your email...">
+          <button type="button" class="subscribe">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--====================================================================
+                                       end news-letters
+  =====================================================================-->
+  <!--====================================================================
+                         footer
+=====================================================================-->
+  <div class="footer">
+    <div class="overlay"></div>
+    <div class="container-fluid ">
+      <div class="row pt-5">
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/images/travel-logo-design-removebg-preview.png" alt="logo-nav">
+            </a>
+            <p>
+              Welcome to (--), your gateway to unforgettable adventures and
+              immersive travel experiences. Explore with us and let your
+              journey begin!
+            </p>
+            <div class="info-cont">
+              <ul class="social-media">
+                <i class="fas fa-share fa-2x text-white me-2" aria-hidden="true"></i>
+                <li><a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-white mt--20">GENERAL</h4>
+            <a href="./AboutUs.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+            <a href="./ContactUs.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+            <a href="./Blog.html"><i class="fas fa-angle-right me-2"></i> Our Blog &amp; News</a>
+            <a href="./Testimonials.html"><i class="fas fa-angle-right me-2"></i>Testimonials</a>
+            <a href="./FAQ.html"><i class="fas fa-angle-right me-2"></i> FAQ </a>
+            <a href="./Wishlist.html"><i class="fas fa-angle-right me-2"></i> Favourites</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-white mt--20">Destinaitions</h4>
+            <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Egypt</a>
+            <a href="./tours.html"><i class="fas fa-angle-right me-2"></i>Turkey </a>
+            <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Portugal</a>
+            <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Saudi Arabia</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-white mt--20">Contact Info</h4>
+            <div class="row">
+              <div class="col">
+                <ul class="footer-link mb-0">
+                  <li>
+                    <a href="mailto:info@cairotoptours.com"><i class="fas fa-envelope me-2"></i>
+                      seo@seoera.net</a>
+                  </li>
+
+                  <li>
+                    <a href="https://maps.app.goo.gl/ohKzK6D6BHnd1wbP8">
+                      <i class="fa fa-map-marker-alt me-2"></i>
+                      2070 Meraag, Zahraa
+                      Almaadi, Cairo, Egypt
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="tel:+201067865053">
+                      <i class="fas fa-phone me-2"></i>
+                      +201067865053
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=201067865053&amp;text=i+found+your+No+on+website&amp;type=phone_number&amp;app_absent=0">
+                      <i class="fab fa-whatsapp me-2"></i>
+                      +201067865053
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <div class="footer-copy">
+          <div class="copyright">
+            Copyright © 2024
+            <a href="https://www.seoera.net/" target="_blank">SeoEra</a>
+            All Right Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--====================================================================
+               footer
+  =====================================================================-->
+
+  <!--====================================================================
+  start Contact Floating Box
+================================================================-->
+  <div class="contact-floatbox d-none d-sm-block">
+    <a href="https://api.whatsapp.com/send/?phone=201067865053&amp;text=i+found+your+No+on+website&amp;type=phone_number&amp;app_absent=0"
+      target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="whatsapp ">
+      <img src="./assets/images/whatsapp.svg" alt="whatsapp-icon" />
+    </a>
+    <a href="tel:++201067865053" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="phone-call"
+      class="phone_call">
+      <img loading="lazy" src="./assets/images/call.png" alt="Cairo Top Tours" title="Cairo Top Tours"
+        style="height: 50px;width: 50px;">
+    </a>
+  </div>
+  <!--====================================================================
+      end Contact Floating Box
+================================================================-->
+  <!---==============================================================================================
+                  Librairies
+    ==================================================================================================-->
+  <!-- ================= bootstrap@5 ========== -->
+  <script src="./assets/lib/bootstrap/bootstrap.min.js"></script>
+  <!-- Swiper Slider js  -->
+  <script src="./assets/lib/swiper/swiper-bundle.min.js"></script>
+  <!-- js  -->
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+  <!--  jQuery js  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- bootstrap Js  -->
+  <!-- flat pickr -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/cart.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      flatpickr("#date-picker", {
+        dateFormat: "d-m-Y", // Matches the placeholder format
+        defaultDate: "today", // Optional: Sets the default date to today
+        disableMobile: true, // Optional: Ensures the full picker is displayed on mobile devices
+      });
+    });
+
+
+
+    const $openitems = $("#openItinerary"),
+      $accordion = $(".Itineraries .accordion-collapse"),
+      $accordionBtn = $(".Itineraries .accordion-button");
+    $openitems.on("click", function () {
+      $accordion.hasClass("show") ?
+        ($accordionBtn.attr("aria-expanded", "false").addClass("collapsed"),
+          $accordion.removeClass("show"), console.log($(".accordion-two ")),
+          $openitems.text("Open Itineries").removeClass("close-itinerary")) :
+        ($accordionBtn.attr("aria-expanded", "true").removeClass("collapsed"),
+          $accordion.addClass("show"), console.log($(".accordion-two ")),
+          $openitems.text("close  Itineries").addClass("close-itinerary"));
+    })
+  </script>
+
+  <script>
+    class Slider {
+      constructor(slider) {
+        this.slider = slider;
+        this.display = slider.querySelector(".image-display");
+        this.navButtons = Array.from(slider.querySelectorAll(".nav-button"));
+        this.prevButton = slider.querySelector(".prev-button");
+        this.nextButton = slider.querySelector(".next-button");
+        this.sliderNavigation = slider.querySelector(".slider-navigation");
+        this.currentSlideIndex = 0;
+        this.preloadedImages = {};
+
+        this.initialize();
+      }
+
+      initialize() {
+        this.setupSlider();
+        this.preloadImages();
+        this.eventListeners();
+      }
+
+      setupSlider() {
+        this.showSlide(this.currentSlideIndex);
+      }
+
+      showSlide(index) {
+        this.currentSlideIndex = index;
+        const navButtonImg = this.navButtons[
+          this.currentSlideIndex
+        ].querySelector("img");
+        if (navButtonImg) {
+          const imgClone = navButtonImg.cloneNode();
+          this.display.replaceChildren(imgClone);
+        }
+        this.updateNavButtons();
+      }
+
+      updateNavButtons() {
+        this.navButtons.forEach((button, buttonIndex) => {
+          const isSelected = buttonIndex === this.currentSlideIndex;
+          button.setAttribute("aria-selected", isSelected);
+          if (isSelected) button.focus();
+        });
+      }
+
+      preloadImages() {
+        this.navButtons.forEach((button) => {
+          const imgElement = button.querySelector("img");
+          if (imgElement) {
+            const imgSrc = imgElement.src;
+            if (!this.preloadedImages[imgSrc]) {
+              this.preloadedImages[imgSrc] = new Image();
+              this.preloadedImages[imgSrc].src = imgSrc;
+            }
+          }
+        });
+      }
+
+      eventListeners() {
+        document.addEventListener("keydown", (event) => {
+          this.handleAction(event.key);
+        });
+
+        this.sliderNavigation.addEventListener("click", (event) => {
+          const targetButton = event.target.closest(".nav-button");
+          const index = targetButton
+            ? this.navButtons.indexOf(targetButton)
+            : -1;
+          if (index !== -1) {
+            this.showSlide(index);
+          }
+        });
+
+        this.prevButton.addEventListener("click", () =>
+          this.handleAction("prev")
+        );
+        this.nextButton.addEventListener("click", () =>
+          this.handleAction("next")
+        );
+      }
+
+      handleAction(action) {
+        if (action === "Home") {
+          this.currentSlideIndex = 0;
+        } else if (action === "End") {
+          this.currentSlideIndex = this.navButtons.length - 1;
+        } else if (action === "ArrowRight" || action === "next") {
+          this.currentSlideIndex =
+            (this.currentSlideIndex + 1) % this.navButtons.length;
+        } else if (action === "ArrowLeft" || action === "prev") {
+          this.currentSlideIndex =
+            (this.currentSlideIndex - 1 + this.navButtons.length) %
+            this.navButtons.length;
+        }
+
+        this.showSlide(this.currentSlideIndex);
+      }
+    }
+
+    const ImageSlider = new Slider(document.querySelector(".image-slider"));
+
+  </script>
+
+</body>
+
+</html>

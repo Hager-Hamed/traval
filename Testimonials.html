@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Template - Travel Tour Agency Template" />
+  <meta name="keywords" content="new, html, Tour, travel, creative, booking,  personal, " />
+  <title>New travel Agency</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo.jpeg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo.jpeg">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo.jpeg">
+  <link rel="manifest" href="./assets/images/logo.jpeg">
+  <link rel="mask-icon" href="./assets/images/logo.jpeg" color="#5bbad5">
+  <!---==============================================================================================
+                          Librairies
+        ==================================================================================================-->
+  <!-- ========== font-awesome =========== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ============= Bootstrap  ===========  -->
+  <link href="./assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <!-- ============= swiper  ===========  -->
+  <link rel="stylesheet" href="./assets/lib/swiper/swiper-bundle.min.css" />
+  <!-- =============  jquery ===========  -->
+  <link rel="stylesheet" href="./assets/lib/jquery/jquery-ui.css" />
+  <link rel="stylesheet" href="./assets/lib//lity/lity.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- ============= style  css ============= -->
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+
+<body>
+
+    <!--====================================================================
+                          Start Navbar
+    ====================================================================-->
+    <nav class="nav-bar main-nav-bar">
+      <!-- Background Color White -->
+      <div class="nav-output">
+
+          <div class="bg-gray">
+              <div class="container-fluid bg-dark text-light px-0 ">
+                  <div class="row gx-0 d-none d-lg-flex">
+                      <div class="col-lg-5 px-5 text-start">
+                          <div class="h-100 d-inline-flex align-items-center me-4">
+                              <span class="fa fa-phone-alt me-2 icons" aria-hidden="true"></span>
+                              <a href="tel:+0123456789" class="text text-light">
+                                  <span>+0123456789</span>
+                              </a>
+                          </div>
+                          <div class="h-100 d-inline-flex align-items-center me-4">
+                              <span class="far fa-envelope me-2 icons" aria-hidden="true"></span>
+                              <a href="mailto: info@yourwebsite.com" class="text text-light">
+                                  <span> info@yourwebsite.com</span>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-lg-7 px-5 text-end">
+                          <div class="h-100 d-inline-flex align-items-center mx-n2">
+                              <li class="dropdown nav-item dropdown navsLink-hasdropdown text-light  navbar_top">
+                                  <a href="#" class=" text-light"> language <i class="fa-solid fa-caret-down"
+                                          aria-hidden="true"></i></a>
+                                  <ul class="dropdown-menu dropdown_menu">
+
+                                      <li>
+                                          <a class="en dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" ls-is-cached lazyloaded" width="24"
+                                                  height="24" alt="English" title="English"
+                                                  src="https://www.cairotoptours.com/assets/images/en.webp">
+                                              English
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="sp dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="español" title="español"
+                                                  src="https://www.cairotoptours.com/assets/images/sp.webp">
+                                              Español
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="fr dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="français" title="français"
+                                                  src="https://www.cairotoptours.com/assets/images/fr.webp">
+                                              Français
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="it dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="italiano" title="italiano"
+                                                  src="https://www.cairotoptours.com/assets/images/it.webp">
+                                              Italiano
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="de dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="Deutsch" title="Deutsch"
+                                                  src="https://www.cairotoptours.com/assets/images/de.webp">
+                                              Deutsch
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="pr dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="português" title="português"
+                                                  src="https://www.cairotoptours.com/assets/images/pr.webp">
+                                              Português
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="ru dropdown-item" href="#" itemprop="url">
+                                              <img loading="lazy" class=" lazyloaded" width="24" height="24"
+                                                  alt="русский" title="русский"
+                                                  src="https://www.cairotoptours.com/assets/images/ru.webp">
+                                              русский
+                                          </a>
+                                      </li>
+
+                                  </ul>
+                              </li>
+                              <li class="dropdown nav-item dropdown navsLink-hasdropdown text-light navbar_top">
+                                  <a href="#" class="text-light"> Currency <i class="fa-solid fa-caret-down"
+                                          aria-hidden="true"></i></a>
+                                  <ul class="dropdown-menu dropdown__menu  ">
+                                      <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                                      <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                                      <li><a href="#" itemprop="url" class="dropdown-item">$ USD</a></li>
+                                      <li><a href="#" itemprop="url" class="dropdown-item">€ EUR</a></li>
+                                      <li><a href="#" itemprop="url" class="dropdown-item"> € EUR</a></li>
+                                      <li><a href="#" itemprop="url" class="dropdown-item">€ EUR</a></li>
+
+                                  </ul>
+                              </li>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+              <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="./assets/images/travel-logo-design-removebg-preview.png" alt="logo-nav" />
+                  </a>
+                  <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggle">
+                          <i class="fas fa-bars"></i>
+                      </span>
+                  </button>
+
+                  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                      <!-- Close button for mobile -->
+                      <button type="button" class="close-nav-btn d-block d-md-none d-lg-none d-xl-none"
+                          aria-label="Close navigation">
+                          <i class="fas fa-times"></i>
+                      </button>
+                      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+                          <li class="nav-item navsLink">
+                              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                          </li>
+
+                          <li class="nav-item navsLink dropdown-li">
+                              <a class="nav-link" href="./SubCategory.html">
+                                  Destinations
+                                  <i class="fa-solid fa-sort-down"></i>
+                              </a>
+                                  <ul class="dropdown-menu">
+                                  
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html"> 
+                                              <img src="./assets/images/egypt-flag-icon.webp" alt="">
+                                               Egypt
+                                           </a>
+                                      </li>
+  
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/Flag_of_Turkey.webp" alt="">
+                                              Türkiye
+                                          </a>
+                                      </li>
+  
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/portugal-flag-icon.svg" alt="">
+
+                                              Portugal</a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/saudi-arabia-flag-icon.webp" alt="">
+
+                                              Saudi Arabia
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/germany-flag-icon.webp" alt="">
+
+                                              Germany
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/russian.png" alt="">
+
+                                              russian
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="dropdown-item" href="./tours.html">
+                                              <img src="./assets/images/Italian.png" alt="">
+
+                                              Italian
+                                          </a>
+                                      </li>
+                                     
+                                  </ul>                              
+                          </li>
+
+                          <li class="nav-item navsLink dropdown-li">
+                              <a class="nav-link" href="./SubCategory.html">
+                                  Travel Style
+                                  <i class="fa-solid fa-sort-down"></i>
+                              </a>
+                              <ul class="dropdown-menu dropdown_icon">
+                                  <li><a class="dropdown-item" href="./tours.html"> <i class="fa-solid fa-users"></i> Family Tours</a></li>
+
+                                  <li><a class="dropdown-item" href="./tours.html"> <i class="fa-solid fa-binoculars"></i> Adventure Tours</a></li>
+
+                                  <li><a class="dropdown-item" href="./tours.html"><i class="fa-solid fa-sailboat"></i> Cruise Tours</a></li>
+                                  
+                                  <li><a class="dropdown-item" href="./tours.html"><i class="fa-solid fa-mountain-sun"></i> Backpacking </a></li>
+                                 
+                              </ul>
+                          </li>
+
+                          <li class="nav-item navsLink">
+                              <a class="nav-link" href="#"> B2B</a>
+                          </li>
+
+                          <li class="nav-item navsLink">
+                              <a class="nav-link" href="./SpecialOffer.html"> Special Offer</a>
+                          </li>
+
+                          <li class="nav-item navsLink dropdown-li" id="dropdownMenuButton" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <a class="nav-link" href="./AboutUs.html">
+                                  About Us
+                                  <i class="fa-solid fa-sort-down"></i>
+                              </a>
+                              <ul class="dropdown-menu dropdown_icon" aria-labelledby="dropdownMenuButton">
+
+                                  <li>
+                                      <a class="dropdown-item" href="./ContactUs.html"> <i class="fa-solid fa-id-card"></i> Contact us</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./Blog.html"><i class="fa-solid fa-pen-to-square"></i> Blog</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./FAQ.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./Testimonials.html"> <i class="fa-solid fa-comments"></i> Testimonials</a>
+                                  </li>
+                              </ul>
+                          </li>
+
+                      </ul>
+                      <div class="header-btn d-flex align-items-center">
+
+                          <div class="fav-dropdown me-3">
+                              <a href="./Cart.html" class="position-relative theme-toggle ">
+                                  <i class="fa-solid fa-cart-shopping" aria-hidden="true">
+                                  </i><span class="count-icon bg-secondary text-gray-9">0</span>
+                              </a>
+                          </div>
+                          <div class="me-3">
+                              <a href="./Wishlist.html" id="dark-mode-toggle" class="theme-toggle activate">
+                                  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                              </a>
+
+                          </div>
+                          <div class="me-3">
+                              <a href="./Login.html" id="dark-mode-toggle" class="theme-toggle activate">
+                                  <i class="fa-solid fa-user" aria-hidden="true"></i>
+                              </a>
+
+                          </div>
+
+                          <div class="header__hamburger d-xl-none my-auto">
+                              <div class="sidebar-menu">
+                                  <i class="isax isax-menu5"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </nav>
+      <!--====================================================================
+                          End Navbar
+         ====================================================================-->
+
+ <!--====================================================================
+                    start menu-mobile box
+    ====================================================================-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+        <div class="menu-mobile-fixed d-flex align-items-center justify-content-between">
+            <a href="#" target="_blank">
+                <i class="fab fa-whatsapp"></i> Whats App
+            </a>
+            <a href="#"> <i class="fa fa-phone"></i> Call</a>
+            <a href="#"> <i class="fa fa-user"></i> Contact Us </a>
+            <a href="#"> <i class="fa fa-paper-plane"></i> Tailor-Made </a>
+        </div>
+    </div>
+    <!--====================================================================
+                        end menu-mobile box
+     ====================================================================--> 
+      <!--====================================================================
+                                   start scroll top
+=====================================================================-->
+    <div class="scroll-top">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path
+          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+          style="
+            transition: stroke-dashoffset 10ms linear;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 229.847;
+          "
+        ></path>
+      </svg>
+    </div>
+    <!--====================================================================
+                                   end scroll top
+   =====================================================================-->
+
+      <!--====================================================================
+                            breadcrumb 
+   =====================================================================-->
+   
+
+      <div class="breadcramb-box w-100 position-relative">
+        <div class="container">
+            <nav aria-label="breadcrumb text-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Testimonials</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <section class="contact-page mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="category-cover-title">
+                    <div class="hero-cap">
+                        <h1>Testimonials</h1>
+                    </div>
+                </div>
+                <div class="category-cover-img">
+                    <img src="./assets/images/inner-banner.jpg" alt="category-img">
+                </div>
+              
+                </div>
+            </div>
+            
+      
+        </div>
+    </section>
+
+
+     <!--====================================================================
+                      breadcrumb 
+   =====================================================================-->
+   
+   
+<!--====================================================================
+              testimonials
+=====================================================================-->
+<section class="testimonials mb-5 pb-3">
+  <div class="testimonials-bg"></div>
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="swiper mySwiper mt-5">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide " role="group" aria-label="2 / 9" data-swiper-slide-index="1"
+                          style="width: 398.667px; margin-right: 50px;">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="https://egyptdaytrips.era-app.com/assets/images/png-transparent-tripadvisor-thumbnail-review-platforms-logos.png"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="data:image/png;base64,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"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="data:image/png;base64,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"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="testimonial-item">
+                              <div class="testimonial-item-img">
+                                  <img src="data:image/png;base64,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"
+                                      alt="testimonials-img">
+                              </div>
+                              <div class="testimonial-item-box text-left">
+                                  <div class="testimonial-icon">
+                                      <i class="fa-solid fa-quote-left"></i>
+                                  </div>
+                                  <div class="testimonial-content">
+                                      <h4>Robert Fox</h4>
+                                      <p>Tourist</p>
+                                      <p class="testimonial-para">
+                                          travel agency Company also impressed us with their transpa regarding
+                                          costs. The initial quote
+                                          was
+                                      </p>
+                                      <div class="testimonial-ratings d-flex">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--====================================================================
+                    testimonials
+=====================================================================-->
+
+<!--====================================================================
+                             Partners
+=====================================================================-->
+
+<section class="mt-4 mb-4 Partners" style="
+background-image: url(./assets/images/bg-image-icon-box) !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title text-center counter-text-wrap mb-70  mt-3">
+                  <h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20">
+                        <g opacity="0.8">
+                            <path d="M9.06226 11.3626L8.55838 13.7263L6.22997 20.0004L7.61194 19.7701L14.0678 11.3277C14.979 11.296 15.8626 11.2471 16.6304 11.1713C20.1826 10.82 19.9984 10.0002 19.9984 10.0002C19.9984 10.0002 20.1826 9.18031 16.6304 8.829C15.8626 8.7529 14.9789 8.70407 14.0678 8.67261L7.61197 0.229974L6.22997 -6.01907e-07L8.55838 6.27416L9.06226 8.6378C7.87942 8.6555 7.07898 8.68244 7.07898 8.68244C7.07898 8.68244 5.44724 8.7201 2.92253 9.28895L0.864093 6.43364L-0.000128074 6.43364L0.615287 9.90529C0.504522 9.93924 0.504522 10.0611 0.615287 10.0951L-0.000128385 13.5667L0.864093 13.5667L2.92253 10.7117C5.44724 11.2806 7.07898 11.3177 7.07898 11.3177C7.07898 11.3177 7.87942 11.3449 9.06226 11.3626Z">
+                            </path>
+                            <path d="M13.4102 13.2575L13.4102 14.1895L9.96575 14.1895L9.96575 13.2575L13.4102 13.2575ZM13.4102 5.81414L13.4102 6.7458L9.96595 6.7458L9.96595 5.81414L13.4102 5.81414ZM11.0863 16.385L11.0863 17.3167L7.90291 17.3167L7.90291 16.385L11.0863 16.385ZM11.0863 2.68689L11.0863 3.61885L7.90291 3.61885L7.90291 2.68689L11.0863 2.68689Z">
+                            </path>
+                        </g>
+                    </svg>
+                    partners
+
+                </h2>
+                    <p>
+                        Check out our partners
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="Partners">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <img src="./assets/images/Partners.png" /> </div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners1.png" /></div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners2.png" /></div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners3.png" /></div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners3.png" /></div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners3.png" /></div>
+              <div class="swiper-slide"> <img src="./assets/images/Partners3.png" /></div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div> -->
+       <!-- Slider main container -->
+       <div class="swiper partnerSwiper mb-4 mt-4">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/images/300x200.svg" alt="Partners-img">
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--====================================================================
+                Partners
+=====================================================================-->
+
+<!--====================================================================
+                             start news-letters
+=====================================================================-->
+
+<div class="newsletter-section position-relative fix">
+    <div class="container">
+        <div class="newsletter-wrap">
+            <div class="newsletter-content d-flex align-items-center">
+                <img src="./assets/images/email-icon.png" alt="img">
+                <h2 class="white">
+                    Get The Latest News
+                </h2>
+            </div>
+            <form action="#" class="wow fadeInDown">
+                <input type="email" placeholder="Enter your email...">
+                <button type="button" class="subscribe">Subscribe</button>
+            </form>
+        </div>
+    </div>
+  </div>
+  <!--====================================================================
+                                       end news-letters
+  =====================================================================-->
+<!--====================================================================
+                         footer
+=====================================================================-->
+<div class="footer">
+  <div class="overlay"></div>
+  <div class="container-fluid ">
+      <div class="row pt-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                  <a class="navbar-brand" href="#">
+                      <img src="./assets/images/travel-logo-design-removebg-preview.png" alt="logo-nav">
+                  </a>
+                  <p>
+                      Welcome to (--), your gateway to unforgettable adventures and
+                      immersive travel experiences. Explore with us and let your
+                      journey begin!
+                  </p>
+                  <div class="info-cont">
+                      <ul class="social-media">
+                          <i class="fas fa-share fa-2x text-white me-2" aria-hidden="true"></i>
+                          <li><a href="#" class="facebook"><i class="fab fa-facebook-f"
+                                      aria-hidden="true"></i></a></li>
+                          <li><a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                          </li>
+                          <li><a href="#" class="instagram"><i class="fab fa-instagram"
+                                      aria-hidden="true"></i></a></li>
+                          <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"
+                                      aria-hidden="true"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                  <h4 class="mb-4 text-white mt--20">GENERAL</h4>
+                  <a href="./AboutUs.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                  <a href="./ContactUs.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                  <a href="./Blog.html"><i class="fas fa-angle-right me-2"></i> Our Blog &amp; News</a>
+                  <a href="./Testimonials.html"><i class="fas fa-angle-right me-2"></i>Testimonials</a>
+                  <a href="./FAQ.html"><i class="fas fa-angle-right me-2"></i> FAQ </a>
+                  <a href="./Wishlist.html"><i class="fas fa-angle-right me-2"></i> Favourites</a>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                  <h4 class="mb-4 text-white mt--20">Destinaitions</h4>
+                  <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Egypt</a>
+                  <a href="./tours.html"><i class="fas fa-angle-right me-2"></i>Turkey </a>
+                  <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Portugal</a>
+                  <a href="./tours.html"><i class="fas fa-angle-right me-2"></i> Saudi Arabia</a>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                  <h4 class="mb-4 text-white mt--20">Contact Info</h4>
+                  <div class="row">
+                      <div class="col">
+                          <ul class="footer-link mb-0">
+                              <li>
+                                  <a href="mailto:info@cairotoptours.com"><i class="fas fa-envelope me-2"></i>
+                                      seo@seoera.net</a>
+                              </li>
+
+                              <li>
+                                  <a href="https://maps.app.goo.gl/ohKzK6D6BHnd1wbP8">
+                                      <i class="fa fa-map-marker-alt me-2"></i>
+                                      2070 Meraag, Zahraa
+                                      Almaadi, Cairo, Egypt
+                                  </a>
+                              </li>
+
+                              <li>
+                                  <a href="tel:+201067865053">
+                                      <i class="fas fa-phone me-2"></i>
+                                      +201067865053
+                                  </a>
+                              </li>
+
+                              <li>
+                                  <a
+                                      href="https://api.whatsapp.com/send/?phone=201067865053&amp;text=i+found+your+No+on+website&amp;type=phone_number&amp;app_absent=0">
+                                      <i class="fab fa-whatsapp me-2"></i>
+                                      +201067865053
+                                  </a>
+                              </li>
+
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bar">
+      <div class="container">
+          <div class="footer-copy">
+              <div class="copyright">
+                  Copyright © 2024
+                  <a href="https://www.seoera.net/" target="_blank">SeoEra</a>
+                  All Right Reserved
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  <!--====================================================================
+               footer
+  =====================================================================-->
+<!--====================================================================
+  start Contact Floating Box
+================================================================-->
+<div class="contact-floatbox d-none d-sm-block">
+  <a href="https://api.whatsapp.com/send/?phone=201067865053&amp;text=i+found+your+No+on+website&amp;type=phone_number&amp;app_absent=0"
+      target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="whatsapp ">
+      <img src="./assets/images/whatsapp.svg" alt="whatsapp-icon" />
+  </a>
+  <a href="tel:++201067865053" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="phone-call"
+      class="phone_call">
+      <img loading="lazy" src="./assets/images/call.png" alt="Cairo Top Tours" title="Cairo Top Tours"
+          style="height: 50px;width: 50px;">
+  </a>
+</div>
+<!--====================================================================
+      end Contact Floating Box
+================================================================-->
+  <!---==============================================================================================
+                  Librairies
+    ==================================================================================================-->
+  <!-- ================= bootstrap@5 ========== -->
+  <script src="./assets/lib/bootstrap/bootstrap.min.js"></script>
+  <!-- Swiper Slider js  -->
+  <script src="./assets/lib/swiper/swiper-bundle.min.js"></script>
+   <!-- js  -->
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+    <!--  jQuery js  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap Js  -->
+    <!-- //<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/testimonials.js"></script>
+  <script src="./assets/js/addform.js"></script>
+  <script src="./assets/js/form-dropdown.js"></script>
+  <script>
+  
+  </script>
+</body>
+
+</html>
