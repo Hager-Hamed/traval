@@ -513,11 +513,7 @@ h3.tour-details-deals-text a:hover {
   overflow: hidden
 }
 
-#include-exclude,
-#itineraries,
-#price-policy,
-#priceTable,
-#tourOverview {
+#Book_Now{
   scroll-margin-top: 200px
 }
 
@@ -3391,9 +3387,6 @@ color: #b97d25;
 }
 
 
-
-
-
 .newsletter-section input[type=email]{
   background: transparent;
   height: 60px;
@@ -3411,3 +3404,75 @@ color: #b97d25;
 }
 
 
+
+/* .booking-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.option button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.done-btn {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-details {
+  /* background: #fff3cd; */
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  background: #ff4500;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}

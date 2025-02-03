@@ -41,8 +41,7 @@
   <link rel="stylesheet" href="./assets/css/navbar.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/tour.css" />
-
-
+  <link rel="stylesheet" href="./assets/css/tour-details.css" />
 </head>
 
 <body>
@@ -317,11 +316,11 @@
   </nav>
   <!--====================================================================
                           End Navbar
-         ====================================================================-->
+  ====================================================================-->
 
   <!--====================================================================
                     start menu-mobile box
-    ====================================================================-->
+  ====================================================================-->
   <div class="d-block d-md-none d-lg-none d-xl-none">
     <div class="menu-mobile-fixed d-flex align-items-center justify-content-between">
       <a href="#" target="_blank">
@@ -448,17 +447,6 @@
 
             </div>
           </div>
-          <!-- <div class="tour-nav">
-            <div class="container">
-              <div class="tour-nav-content d-flex align-items-center">
-                <h3 class="active"><a href="#tourOverview">Overview </a></h3>
-                <h3><a href="#itineraries">Itinerary </a></h3>
-                <h3><a href="#include-exclude">Included/Excluded</a></h3>
-                <h3><a href="#priceTable">Prices</a></h3>
-                <h3><a href="#price-policy">Price Policy</a></h3>
-              </div>
-            </div>
-          </div> -->
 
           <div class="highlight-box mt-3">
             <div class="tour-title-box d-flex align-items-center gap-2">
@@ -784,62 +772,82 @@
             </div>
           </div>
 
-          <div class="price-box mt-3" id="location">
-            <div class="tour-title-box d-flex align-items-center gap-2">
-              <span>
-                <i class="fa-solid fa-route"></i>
-              </span>
-              <h2 class="tour-details-title">Tours location</h2>
-            </div>
+         
 
-            <div class="price-box-content">
-              <div class="map_area">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.6962663570607!2d89.56355961427838!3d22.813715829827952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff901efac79b59%3A0x5be01a1bc0dc7eba!2sAnd+IT!5e0!3m2!1sen!2sbd!4v1557901943656!5m2!1sen!2sbd"></iframe>
+          <div class="tour-details-package mb-5 mt-4" id="Book_Now">
+            <div class="tour-details-package-item">
+              <div class="col-md-12">
+                <div class="banner-form">
+                  <form action="">
+                    <div class="form-info border-0">
+                      <aside class="tour_details_right cart-row ">
+                        <h3 class="widget_title"><i class="fa-solid fa-check-to-slot"></i> Check your price offer </h3>
+  
+                        <div class="booking-container">
+                          <div class="booking-header">
+                              <input type="date" id="tour-date" value="2025-02-04" class="w-25">
+                              <div class="participants" onclick="toggleDropdown()">
+                                  <span id="adults">2</span> بالغين • 
+                                  <span id="children">0</span> أطفال • 
+                                  <span id="infants">0</span> رضع
+                              </div>
+                          </div>
+                          
+                          <div class="dropdown" id="dropdown">
+                              <div class="option">
+                                  <span>البالغين (12-99 سنة)</span>
+                                  <button onclick="updateCount('adults', -1)">-</button>
+                                  <span id="adult-count">2</span>
+                                  <button onclick="updateCount('adults', 1)">+</button>
+                              </div>
+                              <div class="option">
+                                  <span>الأطفال (5-11 سنة)</span>
+                                  <button onclick="updateCount('children', -1)">-</button>
+                                  <span id="children-count">0</span>
+                                  <button onclick="updateCount('children', 1)">+</button>
+                              </div>
+                              <div class="option">
+                                  <span>الرضع (1-5 سنة)</span>
+                                  <button onclick="updateCount('infants', -1)">-</button>
+                                  <span id="infant-count">0</span>
+                                  <button onclick="updateCount('infants', 1)">+</button>
+                              </div>
+                              <button class="done-btn" onclick="toggleDropdown()">تم</button>
+                          </div>
+                          
+                          <div class="price-details">
+                              <h3>تفاصيل السعر</h3>
+                              <p>البالغين (12-99 سنة): <span id="adult-price">$420</span></p>
+                              <p>الأطفال (5-11 سنة): <span id="child-price">$150</span></p>
+                              <p>الرضع (1-5 سنة): <span id="infant-price">$0</span></p>
+                              <h2>الإجمالي: <span id="total-price">$570</span></h2>
+                              <button class="add-to-cart">إضافة إلى السلة</button>
+                          </div>
+                      </div>
+                      </aside>
+  
+  
+                    </div>
+                  </form>
+                </div>
+                
               </div>
             </div>
+
           </div>
 
+    
         </div>
 
         <div class="col-lg-4">
           <div class="tour-details-right h-100">
             <div class="tour-details-package mb-5 mt-5">
+
               <div class="tour-details-package-item">
                 <h3 class="tour-details-package-title widget_title" id="Check_Availability">
                   <i class="fa-solid fa-signs-post"></i>
                   Tour Details
                 </h3>
-                <!-- <div class="tour-details-package-content">
-
-                  <div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Date</h6>
-                      <p class="flex-fill">25 May 2025 - 31 May 2025</p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Destination</h6>
-                      <p class="flex-fill">Eidnesburg</p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Duration</h6>
-                      <p class="flex-fill">4 Day, 3 Night</p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Departure</h6>
-                      <p class="flex-fill">25 May 2025, 04:45 AM</p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Return</h6>
-                      <p class="flex-fill">31 May 2025, 10:00 PM</p>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between details-info mb-2">
-                      <h6 class="fw-medium">Total Peoples</h6>
-                      <p class="flex-fill">28</p>
-                    </div>
-                  </div>
-                </div> -->
-
                 <div class="box-info-tour">
                   <div class="tour-info-group">
                     <div class="icon-item background-3">
@@ -922,153 +930,6 @@
                 </div>
               </div>
 
-              <section id="theme_search_form">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="theme_search_form_area">
-           
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="flights" role="tabpanel"
-                                        aria-labelledby="flights-tab">
-                                        <div class="tab-content" id="myTabContent1">
-                                            <div class="tab-pane fade show active" id="oneway_flight" role="tabpanel"
-                                                aria-labelledby="oneway-tab">
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="oneway_search_form">
-                                                            <form action="#!">
-                                                                <div class="row">
-                                                                    <div class="col-lg-4  col-md-6 col-sm-12 col-12">
-                                                                        <div class="form_search_date">
-                                                                            <div class="flight_Search_boxed date_flex_area">
-                                                                              
-                                                                                <div class="form-group">
-                                                                                    <label for="date-picker" class="check"> Start Date</label>
-                                                                                    <input type="text" id="date-picker" class="flatpickr form-control " placeholder="dd-mm-YY">
-                                                          
-                                                                                  </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-2  col-md-6 col-sm-12 col-12">
-                                                                        <div
-                                                                            class="flight_Search_boxed dropdown_passenger_area">
-                                                                            <p>Passenger, Class </p>
-                                                                            <div class="dropdown">
-                                                                                <button class="dropdown-toggle final-count"
-                                                                                    data-toggle="dropdown" type="button"
-                                                                                    id="dropdownMenuButton1"
-                                                                                    data-bs-toggle="dropdown"
-                                                                                    aria-expanded="false">
-                                                                                    0 Passenger
-                                                                                </button>
-                                                                                <div class="dropdown-menu dropdown_passenger_info"
-                                                                                    aria-labelledby="dropdownMenuButton1">
-                                                                                    <div class="traveller-calulate-persons">
-                                                                                        <div class="passengers">
-                                                                                            <h6>Passengers</h6>
-                                                                                            <div class="passengers-types">
-                                                                                                <div class="passengers-type">
-                                                                                                    <div class="text"><span
-                                                                                                            class="count pcount">2</span>
-                                                                                                        <div class="type-label">
-                                                                                                            <p>Adult</p>
-                                                                                                            <span>12+
-                                                                                                                yrs</span>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="button-set">
-                                                                                                        <button type="button"
-                                                                                                            class="btn-add">
-                                                                                                            <i
-                                                                                                                class="fas fa-plus"></i>
-                                                                                                        </button>
-                                                                                                        <button type="button"
-                                                                                                            class="btn-subtract">
-                                                                                                            <i
-                                                                                                                class="fas fa-minus"></i>
-                                                                                                        </button>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="passengers-type">
-                                                                                                    <div class="text"><span
-                                                                                                            class="count ccount">0</span>
-                                                                                                        <div class="type-label">
-                                                                                                            <p
-                                                                                                                class="fz14 mb-xs-0">
-                                                                                                                Children
-                                                                                                            </p><span>2
-                                                                                                                - Less than 12
-                                                                                                                yrs</span>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="button-set">
-                                                                                                        <button type="button"
-                                                                                                            class="btn-add-c">
-                                                                                                            <i
-                                                                                                                class="fas fa-plus"></i>
-                                                                                                        </button>
-                                                                                                        <button type="button"
-                                                                                                            class="btn-subtract-c">
-                                                                                                            <i
-                                                                                                                class="fas fa-minus"></i>
-                                                                                                        </button>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="passengers-type">
-                                                                                                    <div class="text"><span
-                                                                                                            class="count incount">0</span>
-                                                                                                        <div class="type-label">
-                                                                                                            <p
-                                                                                                                class="fz14 mb-xs-0">
-                                                                                                                Infant
-                                                                                                            </p><span>Less
-                                                                                                                than 2
-                                                                                                                yrs</span>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="button-set">
-                                                                                                        <button type="button"
-                                                                                                            class="btn-add-in">
-                                                                                                            <i
-                                                                                                                class="fas fa-plus"></i>
-                                                                                                        </button>
-                                                                                                        <button type="button"
-                                                                                                            class="btn-subtract-in">
-                                                                                                            <i
-                                                                                                                class="fas fa-minus"></i>
-                                                                                                        </button>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <!-- <span>Business</span> -->
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="top_form_search_button">
-                                                                        <button class="btn__effect">Search</button>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                         
-                                        </div>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
               <div class="tour-details-package mb-5 mt-4">
                 <div class="tour-details-package-item">
                   <h3 class="tour-details-package-title widget_title" id="Check_Availability">
@@ -1079,314 +940,12 @@
                       $500 / per person
                     </span>
                   </h3>
-                  <aside class="tour_details_right  ">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="date-picker" class="check"> Start Date</label>
-                          <input type="text" id="date-picker" class="flatpickr form-control " placeholder="dd-mm-YY">
-
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="flight_Search_boxed dropdown_passenger_area">
-                          <p>Passenger, Class </p>
-                          <div class="dropdown">
-                              <button class="dropdown-toggle final-count show" data-toggle="dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
-                                  0 Passenger
-                              </button>
-                              <div class="dropdown-menu dropdown_passenger_info show" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-228px, 35px);" data-popper-placement="bottom-end">
-                                  <div class="traveller-calulate-persons">
-                                      <div class="passengers">
-                                          <h6>Passengers</h6>
-                                          <div class="passengers-types">
-                                            <div class="cart_con">
-                                              <label class="w-100 cart_l">
-                                                Adults <br> ( + 12 years)
-                                              </label>
-                                              <div class="tourist-item-group ">
-                                                <button type="button" id="adults_dec" class="decrease-btn">-</button>
-                                                <input disabled="" id="adults_val" max="50" value="0" type="text"
-                                                  class="quantity-input" data-type="adult">
-                                                <button type="button" id="adults_inc" style="cursor: pointer;"
-                                                  class="increase-btn">+</button>
-                                              </div>
-                                            </div>
-                                              <!-- <div class="passengers-type">
-                                                  <div class="text"><span class="count pcount">2</span>
-                                                      <div class="type-label">
-                                                          <p>Adult</p>
-                                                          <span>12+
-                                                              yrs</span>
-                                                      </div>
-                                                  </div>
-                                                  <div class="button-set">
-                                                      <button type="button" class="btn-add">
-                                                          <i class="fas fa-plus"></i>
-                                                      </button>
-                                                      <button type="button" class="btn-subtract">
-                                                          <i class="fas fa-minus"></i>
-                                                      </button>
-                                                  </div>
-                                              </div>
-                                              <div class="passengers-type">
-                                                  <div class="text"><span class="count ccount">0</span>
-                                                      <div class="type-label">
-                                                          <p class="fz14 mb-xs-0">
-                                                              Children
-                                                          </p><span>2
-                                                              - Less than 12
-                                                              yrs</span>
-                                                      </div>
-                                                  </div>
-                                                  <div class="button-set">
-                                                      <button type="button" class="btn-add-c">
-                                                          <i class="fas fa-plus"></i>
-                                                      </button>
-                                                      <button type="button" class="btn-subtract-c">
-                                                          <i class="fas fa-minus"></i>
-                                                      </button>
-                                                  </div>
-                                              </div>
-                                              <div class="passengers-type">
-                                                  <div class="text"><span class="count incount">0</span>
-                                                      <div class="type-label">
-                                                          <p class="fz14 mb-xs-0">
-                                                              Infant
-                                                          </p><span>Less
-                                                              than 2
-                                                              yrs</span>
-                                                      </div>
-                                                  </div>
-                                                  <div class="button-set">
-                                                      <button type="button" class="btn-add-in">
-                                                          <i class="fas fa-plus"></i>
-                                                      </button>
-                                                      <button type="button" class="btn-subtract-in">
-                                                          <i class="fas fa-minus"></i>
-                                                      </button>
-                                                  </div>
-                                              </div> -->
-                                          </div>
-                                      </div>
-                                 
-                                  </div>
-                              </div>
-                          </div>
-                          <span>Business</span>
-                      </div>
-                      </div>
-                    </div>
-                  </aside>
+                  <a class="effect blogs-btn d-block" href="#Book_Now" title="Read More">Book Now</a>
 
 
                 </div>
 
               </div>
-
-              <div class="tour-details-package mb-5 mt-4">
-                <div class="tour-details-package-item">
-                  <div class="banner-form">
-                    <form action="tour-booking.html">
-                      <div class="form-info border-0">
-                        <aside class="tour_details_right cart-row ">
-                          <h3 class="widget_title"><i class="fa-solid fa-check-to-slot"></i> Check your price offer
-                          </h3>
-
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Adults <br> ( + 12 years)
-                                </label>
-                                <div class="tourist-item-group ">
-                                  <button type="button" id="adults_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="adults_val" max="50" value="0" type="text"
-                                    class="quantity-input" data-type="adult">
-                                  <button type="button" id="adults_inc" style="cursor: pointer;"
-                                    class="increase-btn">+</button>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Children <br> (6- 11 Years)
-                                </label>
-
-                                <div class="tourist-item-group">
-                                  <button type="button" id="Children_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="Children_val" max="30" value="0" type="text"
-                                    class="quantity-input">
-                                  <button type="button" id="Children_inc" class="increase-btn">+</button>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Children <br> (3 - 5 Years)
-                                </label>
-                                <div class="tourist-item-group">
-                                  <button type="button" id="Childrenkid_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="Childrenkid_val" max="30" value="0" type="text"
-                                    class="quantity-input">
-                                  <button type="button" id="Childrenkid_inc" class="increase-btn">+</button>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Infants <br> (up to 2 years)
-                                </label>
-                                <div class="tourist-item-group ">
-                                  <button type="button" id="Infants_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="Infants_val" max="20" value="0" type="text"
-                                    class="quantity-input">
-                                  <button type="button" id="Infants_inc" style="cursor: pointer;"
-                                    class="increase-btn">+</button>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-                          <!-- <div class="row">
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Adults
-                                </label>
-                                <div class="tourist-item-group ">
-                                  <button type="button" id="adults_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="adults_val" max="50" value="0" type="text"
-                                    class="quantity-input" data-type="adult">
-                                  <button type="button" id="adults_inc" style="cursor: pointer;"
-                                    class="increase-btn">+</button>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Infants <br> ( 0-12 Yrs )
-                                </label>
-                                <div class="tourist-item-group ">
-                                  <button type="button" id="Infants_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="Infants_val" max="20" value="0" type="text"
-                                    class="quantity-input">
-                                  <button type="button" id="Infants_inc" style="cursor: pointer;"
-                                    class="increase-btn">+</button>
-                                </div>
-
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <div class="cart_con">
-                                <label class="w-100 cart_l">
-                                  Children <br> ( 2-12 Yrs )
-                                </label>
-                                <div class="tourist-item-group">
-                                  <button type="button" id="Childrenkid_dec" class="decrease-btn">-</button>
-                                  <input disabled="" id="Childrenkid_val" max="30" value="0" type="text"
-                                    class="quantity-input">
-                                  <button type="button" id="Childrenkid_inc" class="increase-btn">+</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-                        </aside>
-
-
-                      </div>
-                    </form>
-                  </div>
-
-                </div>
-
-              </div>
-
-
-              <aside class="tour_details_right cart-row">
-                <h3 class="widget_title"> <i class="fa-solid fa-money-bill"></i>Price Breakdown </h3>
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="cartcon">
-                      <label class="w-100 cart_l">
-                        <i class="fa-solid fa-person" aria-hidden="true"></i> Adults ( + 12 Years)
-                      </label>
-                      <div class="tourist-item-group ">
-                        <span> $<span class="total-price" id="case-total">0.00</span></span>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-12">
-                    <div class="cartcon">
-                      <label class="w-100 cart_l">
-                        <i class="fa-solid fa-child" aria-hidden="true"></i> Children ( 6 - 11 Years)
-                      </label>
-                      <div class="tourist-item-group ">
-                        <span> $<span class="total-price" id="Children-total">0.00</span></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="cartcon">
-                      <label class="w-100 cart_l">
-                        <i class="fa-solid fa-child" aria-hidden="true"></i> Children ( 3- 5 Years)
-                      </label>
-                      <div class="tourist-item-group ">
-                        <span> $<span class="total-price" id="Children_total">30.00</span></span>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-12">
-                    <div class="cartcon">
-                      <label class="w-100 cart_l">
-                        <i class="fa-solid fa-child-reaching" aria-hidden="true"></i> Infants
-                        ( 0-12 Yrs )
-                      </label>
-                      <div class="tourist-item-group ">
-                        <span> $<span class="total-price" id="Infants-total">40.00</span></span>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="cartcon">
-                      <label class="w-100 cart_l">
-                        <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
-                        Total From
-                      </label>
-                      <div class="tourist-item-group total-price ">
-                        <span>$<span id="subtotalPrice">70.00</span></span>
-                      </div>
-
-
-                    </div>
-                  </div>
-                  <a href="./Cart.html" class="btn  btn-effect  w-100 mb-4">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    Add to cart
-                  </a>
-
-
-                </div>
-
-              </aside>
-
-
 
               <div class="card tour-details_card">
                 <h3 class="tour-details-package-title widget_title" id="Check_Availability">
@@ -1406,7 +965,6 @@
                   </div>
                 </div>
               </div>
-
 
               <div class="tour-details-package mb-5">
                 <div class="tour-details-package-item">
@@ -1459,8 +1017,6 @@
                 </div>
               </div>
 
-
-
               <div class="card tour-details_card">
                 <h3 class="tour-details-package-title widget_title" id="Check_Availability">
                   <i class="fa-solid fa-headset"></i>
@@ -1492,13 +1048,29 @@
                 </div>
               </div>
 
-
+              <div class="price-box mt-3" id="location">
+                <div class="tour-title-box d-flex align-items-center gap-2">
+                  <span>
+                    <i class="fa-solid fa-route"></i>
+                  </span>
+                  <h2 class="tour-details-title">Tours location</h2>
+                </div>
+    
+                <div class="price-box-content">
+                  <div class="map_area">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.6962663570607!2d89.56355961427838!3d22.813715829827952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff901efac79b59%3A0x5be01a1bc0dc7eba!2sAnd+IT!5e0!3m2!1sen!2sbd!4v1557901943656!5m2!1sen!2sbd"></iframe>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>
 
         </div>
+
       </div>
+
       <div class="col-lg-12">
         <div class="related-box">
           <h2 class="tour-details-title text-center fs-1 fw-bold mt-30 mb-30">Related Tours</h2>
@@ -1621,6 +1193,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
   <!--===============================================================
@@ -1929,14 +1502,12 @@
   <script src="./assets/js/bootstrap.bundle.js"></script>
   <!--  jQuery js  -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- bootstrap Js  -->
   <!-- flat pickr -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 
   <script src="./assets/js/navbar.js"></script>
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script> 
   <script src="./assets/js/cart.js"></script>
 
   <script>
@@ -1950,21 +1521,22 @@
 
 
 
-    const $openitems = $("#openItinerary"),
-      $accordion = $(".Itineraries .accordion-collapse"),
-      $accordionBtn = $(".Itineraries .accordion-button");
-    $openitems.on("click", function () {
-      $accordion.hasClass("show") ?
-        ($accordionBtn.attr("aria-expanded", "false").addClass("collapsed"),
-          $accordion.removeClass("show"), console.log($(".accordion-two ")),
-          $openitems.text("Open Itineries").removeClass("close-itinerary")) :
-        ($accordionBtn.attr("aria-expanded", "true").removeClass("collapsed"),
-          $accordion.addClass("show"), console.log($(".accordion-two ")),
-          $openitems.text("close  Itineries").addClass("close-itinerary"));
-    })
+        const $openitems = $("#openItinerary"),
+          $accordion = $(".Itineraries .accordion-collapse"),
+          $accordionBtn = $(".Itineraries .accordion-button");
+          $openitems.on("click", function () {
+            $accordion.hasClass("show") ?
+            ($accordionBtn.attr("aria-expanded", "false").addClass("collapsed"),
+            $accordion.removeClass("show"), console.log($(".accordion-two ")),
+            $openitems.text("Open Itineries").removeClass("close-itinerary")) :
+            ($accordionBtn.attr("aria-expanded", "true").removeClass("collapsed"),
+            $accordion.addClass("show"), console.log($(".accordion-two ")),
+            $openitems.text("close  Itineries").addClass("close-itinerary"));
+         })
   </script>
 
   <script>
+
     class Slider {
       constructor(slider) {
         this.slider = slider;
@@ -2067,6 +1639,43 @@
 
   </script>
 
-</body>
+  <script>
 
+      function toggleDropdown() {
+        const dropdown = document.getElementById('dropdown');
+        dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+      }
+
+      function updateCount(type, change) {
+        let countElement = document.getElementById(`${type}-count`);
+        let count = parseInt(countElement.textContent) + change;
+        if (count < 0) count = 0; 
+
+        countElement.textContent = count;
+        document.getElementById(type).textContent = count;
+
+        updatePrice();
+      }
+
+      function updatePrice() {
+        let adults = parseInt(document.getElementById('adult-count').textContent);
+        let children = parseInt(document.getElementById('children-count').textContent);
+        let infants = parseInt(document.getElementById('infant-count').textContent);
+
+        let adultPrice = adults * 105;
+        let childPrice = children * 50;
+        let infantPrice = infants * 0;
+
+        document.getElementById('adult-price').textContent = `$${adultPrice}`;
+        document.getElementById('child-price').textContent = `$${childPrice}`;
+        document.getElementById('infant-price').textContent = `$${infantPrice}`;
+
+        let totalPrice = adultPrice + childPrice + infantPrice;
+        document.getElementById('total-price').textContent = `$${totalPrice}`;
+      }
+
+</script>
+
+</body>
 </html>
+
